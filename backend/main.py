@@ -21,16 +21,11 @@ app = FastAPI(
     version="1.0.0"
 )
 
-# CORS middleware
+# CORS middleware - Allow all origins for debugging
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:3000",
-        "http://localhost:3001",
-        "https://skinsync.vercel.app",
-        "https://*.vercel.app"  # Allow all Vercel preview deployments
-    ],
-    allow_credentials=True,
+    allow_origins=["*"],  # Temporarily allow all origins to debug
+    allow_credentials=False,  # Must be False when using wildcard
     allow_methods=["*"],
     allow_headers=["*"],
 )

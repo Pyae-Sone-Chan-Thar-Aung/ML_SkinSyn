@@ -6,6 +6,10 @@ import { Sparkles, TrendingUp, Target, Network, Shield, Brain, Loader2 } from 'l
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'
 
+// Debug: Log API URL on load
+console.log('🔍 API_URL:', API_URL)
+console.log('🔍 ENV VAR:', process.env.NEXT_PUBLIC_API_URL)
+
 export default function TryNow() {
   const [loading, setLoading] = useState<{[key: string]: boolean}>({})
   const [results, setResults] = useState<{[key: string]: any}>({})
