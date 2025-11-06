@@ -1,0 +1,501 @@
+product_id,name,type,brand,price,rating,ingredients,suitable_for_oily,suitable_for_dry,suitable_for_sensitive,suitable_for_combination,suitable_for_normal,has_fragrance,has_alcohol,is_hypoallergenic,spf_level
+1,Cleanser 1,Cleanser,Brand E,123.37,3.8,"Niacinamide,Squalane,Squalane,Glycerin,Aloe Vera",0,0,0,0,0,0,0,0,0
+2,Moisturizer 2,Moisturizer,Brand C,36.06,3.6,"Niacinamide,Retinol,Glycolic Acid,Retinol,Hyaluronic Acid",0,0,0,0,0,1,0,0,0
+3,Mask 3,Mask,Brand C,18.59,4.8,"Vitamin E,Lactic Acid,Hyaluronic Acid,Niacinamide,Titanium Dioxide,Squalane",0,1,0,1,1,0,0,0,0
+4,Sunscreen 4,Sunscreen,Brand B,68.21,3.6,"Titanium Dioxide,Glycerin,Titanium Dioxide,Squalane,Niacinamide,Retinol",1,1,1,0,0,0,0,0,0
+5,Mask 5,Mask,Brand A,69.83,4.5,"Zinc Oxide,Vitamin C,Salicylic Acid,Lactic Acid",0,0,0,1,0,0,0,1,0
+6,Toner 6,Toner,Brand C,113.34,4.5,"Vitamin E,Retinol,Glycolic Acid,Glycerin,Chamomile,Lactic Acid,Hyaluronic Acid",0,0,1,0,0,0,0,1,0
+7,Moisturizer 7,Moisturizer,Brand E,98.74,4.7,"Zinc Oxide,Centella Asiatica,Glycerin,Vitamin C,Glycolic Acid,Vitamin C",0,1,0,0,1,1,1,0,0
+8,Cleanser 8,Cleanser,Brand D,51.49,4.1,"Niacinamide,Salicylic Acid,Centella Asiatica,Lactic Acid,Squalane,Aloe Vera",0,1,1,1,0,1,0,1,0
+9,Toner 9,Toner,Brand D,88.9,4.5,"Zinc Oxide,Vitamin C,Vitamin C,Lactic Acid",1,1,0,0,1,1,0,1,0
+10,Serum 10,Serum,Brand B,78.63,4.7,"Hyaluronic Acid,Centella Asiatica,Retinol,Retinol,Centella Asiatica",1,1,0,0,1,0,0,1,0
+11,Mask 11,Mask,Brand C,126.82,4.5,"Vitamin C,Vitamin E,Ceramides,Retinol,Squalane,Chamomile,Squalane",1,1,1,1,0,1,1,0,0
+12,Toner 12,Toner,Brand C,48.05,3.8,"Niacinamide,Centella Asiatica,Centella Asiatica",0,0,0,1,0,0,0,1,0
+13,Mask 13,Mask,Brand A,25.35,4.0,"Hyaluronic Acid,Hyaluronic Acid,Centella Asiatica,Titanium Dioxide,Vitamin C",1,0,1,1,1,0,1,1,0
+14,Cleanser 14,Cleanser,Brand C,66.4,4.3,"Glycolic Acid,Aloe Vera,Chamomile",0,0,0,1,0,0,1,0,0
+15,Mask 15,Mask,Brand C,116.36,4.5,"Retinol,Ceramides,Zinc Oxide,Zinc Oxide",1,0,0,0,1,1,0,1,0
+16,Serum 16,Serum,Brand B,49.94,4.0,"Squalane,Chamomile,Glycolic Acid",1,1,0,1,0,1,0,0,0
+17,Serum 17,Serum,Brand A,142.99,3.2,"Retinol,Vitamin E,Glycerin,Lactic Acid,Chamomile",0,0,1,0,1,0,0,0,0
+18,Sunscreen 18,Sunscreen,Brand B,108.98,3.5,"Vitamin E,Titanium Dioxide,Titanium Dioxide,Vitamin E,Glycerin,Ceramides",0,0,1,0,0,0,0,0,50
+19,Moisturizer 19,Moisturizer,Brand C,76.49,4.2,"Centella Asiatica,Glycolic Acid,Vitamin E,Titanium Dioxide,Lactic Acid",0,1,0,1,1,0,1,0,0
+20,Mask 20,Mask,Brand C,99.74,3.1,"Lactic Acid,Vitamin E,Aloe Vera,Vitamin C",1,0,1,0,0,1,1,0,0
+21,Moisturizer 21,Moisturizer,Brand A,50.96,4.1,"Niacinamide,Retinol,Squalane,Aloe Vera,Zinc Oxide",1,1,1,1,0,1,0,1,0
+22,Mask 22,Mask,Brand A,24.29,3.5,"Glycerin,Vitamin C,Vitamin C,Lactic Acid,Centella Asiatica,Retinol,Aloe Vera",0,1,1,1,0,1,1,1,0
+23,Cleanser 23,Cleanser,Brand C,56.82,3.7,"Chamomile,Squalane,Niacinamide,Aloe Vera",0,0,1,1,0,0,1,1,0
+24,Serum 24,Serum,Brand C,44.27,4.3,"Titanium Dioxide,Ceramides,Centella Asiatica",0,1,0,1,1,1,0,1,0
+25,Mask 25,Mask,Brand D,135.9,4.5,"Titanium Dioxide,Chamomile,Vitamin C,Glycerin,Salicylic Acid,Aloe Vera",0,1,1,1,0,0,1,0,0
+26,Mask 26,Mask,Brand E,123.93,4.6,"Retinol,Vitamin E,Lactic Acid",1,1,0,0,1,0,1,0,0
+27,Sunscreen 27,Sunscreen,Brand C,58.63,4.0,"Zinc Oxide,Hyaluronic Acid,Ceramides,Zinc Oxide",0,0,0,1,1,0,0,0,50
+28,Toner 28,Toner,Brand A,84.27,4.1,"Aloe Vera,Centella Asiatica,Salicylic Acid",0,1,1,0,0,1,0,1,0
+29,Cleanser 29,Cleanser,Brand C,147.95,4.2,"Retinol,Glycerin,Ceramides,Vitamin C,Glycerin",1,0,1,1,1,1,1,1,0
+30,Toner 30,Toner,Brand C,126.24,3.6,"Vitamin E,Glycolic Acid,Centella Asiatica,Retinol",1,1,1,1,1,0,0,0,0
+31,Sunscreen 31,Sunscreen,Brand D,115.01,3.4,"Chamomile,Hyaluronic Acid,Aloe Vera",0,1,0,0,1,0,0,0,30
+32,Serum 32,Serum,Brand B,42.59,3.5,"Glycerin,Squalane,Squalane,Titanium Dioxide,Salicylic Acid,Lactic Acid,Chamomile",1,1,1,0,1,0,0,1,0
+33,Cleanser 33,Cleanser,Brand E,120.56,3.2,"Titanium Dioxide,Ceramides,Retinol",1,1,0,1,0,0,0,1,0
+34,Toner 34,Toner,Brand E,50.28,5.0,"Squalane,Retinol,Vitamin E,Hyaluronic Acid,Ceramides,Niacinamide",0,0,0,0,0,1,0,1,0
+35,Sunscreen 35,Sunscreen,Brand E,34.17,3.5,"Salicylic Acid,Niacinamide,Glycerin,Hyaluronic Acid",0,1,1,0,1,0,0,0,15
+36,Mask 36,Mask,Brand E,142.75,3.2,"Glycolic Acid,Glycolic Acid,Retinol,Salicylic Acid",0,0,0,1,0,0,1,1,0
+37,Mask 37,Mask,Brand B,90.34,3.5,"Vitamin C,Glycolic Acid,Vitamin C,Zinc Oxide",0,1,0,1,0,0,1,1,0
+38,Serum 38,Serum,Brand B,129.79,3.9,"Retinol,Glycolic Acid,Vitamin C,Titanium Dioxide,Lactic Acid",1,1,1,1,1,0,1,0,0
+39,Toner 39,Toner,Brand E,114.19,4.1,"Hyaluronic Acid,Squalane,Ceramides",0,0,0,0,1,1,1,1,0
+40,Cleanser 40,Cleanser,Brand C,145.14,4.9,"Zinc Oxide,Niacinamide,Niacinamide,Ceramides",1,0,1,1,0,1,0,0,0
+41,Cleanser 41,Cleanser,Brand E,74.02,3.8,"Lactic Acid,Glycolic Acid,Vitamin C,Glycolic Acid,Ceramides",0,0,0,0,1,0,0,0,0
+42,Mask 42,Mask,Brand B,102.36,4.3,"Titanium Dioxide,Vitamin E,Salicylic Acid,Zinc Oxide",0,0,1,0,1,1,1,0,0
+43,Sunscreen 43,Sunscreen,Brand C,135.36,3.1,"Vitamin E,Glycerin,Glycolic Acid,Titanium Dioxide,Zinc Oxide,Centella Asiatica",1,0,0,0,1,0,0,0,30
+44,Serum 44,Serum,Brand A,116.65,3.7,"Niacinamide,Titanium Dioxide,Glycolic Acid,Salicylic Acid,Retinol,Salicylic Acid",0,0,1,1,1,1,0,1,0
+45,Moisturizer 45,Moisturizer,Brand B,38.46,3.2,"Salicylic Acid,Salicylic Acid,Glycolic Acid,Ceramides",1,0,1,0,0,1,1,1,0
+46,Cleanser 46,Cleanser,Brand B,60.79,3.3,"Titanium Dioxide,Glycerin,Niacinamide,Zinc Oxide,Niacinamide",0,1,0,0,0,1,0,0,0
+47,Toner 47,Toner,Brand B,133.16,5.0,"Glycolic Acid,Ceramides,Lactic Acid,Glycerin,Retinol,Vitamin E,Zinc Oxide",0,0,0,1,1,0,1,0,0
+48,Sunscreen 48,Sunscreen,Brand C,111.41,4.4,"Niacinamide,Lactic Acid,Vitamin E,Chamomile,Glycerin,Squalane,Glycerin",1,0,0,1,1,1,1,0,50
+49,Toner 49,Toner,Brand C,62.78,4.0,"Squalane,Squalane,Hyaluronic Acid,Niacinamide,Ceramides,Vitamin E",1,1,1,0,1,0,0,1,0
+50,Cleanser 50,Cleanser,Brand C,76.77,3.9,"Niacinamide,Niacinamide,Glycerin,Vitamin E",0,1,1,0,1,0,0,1,0
+51,Moisturizer 51,Moisturizer,Brand B,146.62,4.1,"Vitamin E,Chamomile,Glycolic Acid,Niacinamide,Vitamin C,Titanium Dioxide,Lactic Acid",1,0,1,1,1,0,0,0,0
+52,Serum 52,Serum,Brand B,124.98,4.3,"Retinol,Squalane,Aloe Vera,Retinol,Titanium Dioxide,Ceramides,Glycolic Acid",0,0,1,1,1,1,1,0,0
+53,Toner 53,Toner,Brand A,32.04,4.7,"Vitamin E,Ceramides,Lactic Acid,Retinol,Squalane,Squalane,Vitamin E",1,1,1,1,1,1,0,1,0
+54,Toner 54,Toner,Brand A,104.73,4.8,"Centella Asiatica,Lactic Acid,Vitamin C,Salicylic Acid,Centella Asiatica,Hyaluronic Acid,Zinc Oxide",0,0,0,1,0,0,1,0,0
+55,Serum 55,Serum,Brand C,106.5,3.7,"Vitamin C,Aloe Vera,Glycolic Acid,Chamomile,Vitamin C,Glycolic Acid,Zinc Oxide",0,1,0,1,1,0,1,1,0
+56,Sunscreen 56,Sunscreen,Brand E,130.4,3.7,"Chamomile,Centella Asiatica,Vitamin E,Vitamin C",0,0,1,1,1,0,0,1,15
+57,Cleanser 57,Cleanser,Brand D,110.03,4.1,"Glycolic Acid,Vitamin E,Aloe Vera,Retinol,Vitamin C",0,1,1,1,1,1,0,0,0
+58,Cleanser 58,Cleanser,Brand D,33.78,4.7,"Niacinamide,Hyaluronic Acid,Squalane,Glycerin",0,0,1,1,0,1,0,1,0
+59,Moisturizer 59,Moisturizer,Brand D,102.18,4.2,"Retinol,Squalane,Zinc Oxide,Salicylic Acid,Aloe Vera,Ceramides,Hyaluronic Acid",1,1,0,1,1,0,0,1,0
+60,Toner 60,Toner,Brand B,21.58,4.0,"Retinol,Salicylic Acid,Lactic Acid,Vitamin C",0,1,1,0,1,1,0,1,0
+61,Serum 61,Serum,Brand B,37.41,4.6,"Niacinamide,Glycerin,Glycolic Acid,Lactic Acid,Titanium Dioxide,Ceramides,Salicylic Acid",1,1,0,1,0,1,1,0,0
+62,Serum 62,Serum,Brand A,98.83,4.2,"Glycerin,Salicylic Acid,Chamomile,Aloe Vera,Lactic Acid",1,1,1,0,0,1,0,0,0
+63,Sunscreen 63,Sunscreen,Brand B,11.79,4.9,"Squalane,Vitamin C,Glycolic Acid,Lactic Acid,Hyaluronic Acid",1,0,0,1,1,0,1,1,0
+64,Mask 64,Mask,Brand A,139.66,3.2,"Vitamin C,Glycolic Acid,Lactic Acid,Hyaluronic Acid,Glycolic Acid",0,1,1,1,1,1,1,0,0
+65,Mask 65,Mask,Brand B,114.98,3.4,"Ceramides,Centella Asiatica,Vitamin E,Vitamin C,Zinc Oxide",1,0,0,1,0,1,1,0,0
+66,Serum 66,Serum,Brand B,91.69,3.7,"Titanium Dioxide,Vitamin E,Retinol",1,1,0,1,0,1,1,0,0
+67,Cleanser 67,Cleanser,Brand E,56.23,3.8,"Retinol,Glycerin,Ceramides,Chamomile,Salicylic Acid",0,1,0,1,0,1,0,0,0
+68,Serum 68,Serum,Brand D,38.78,3.1,"Hyaluronic Acid,Squalane,Glycolic Acid,Hyaluronic Acid,Aloe Vera,Retinol,Glycolic Acid",1,0,0,1,0,1,0,1,0
+69,Mask 69,Mask,Brand D,11.38,3.7,"Retinol,Glycerin,Hyaluronic Acid,Squalane,Titanium Dioxide,Lactic Acid,Vitamin E",1,0,0,0,0,1,0,1,0
+70,Mask 70,Mask,Brand B,95.11,3.7,"Lactic Acid,Hyaluronic Acid,Vitamin E",1,0,1,0,0,0,1,1,0
+71,Moisturizer 71,Moisturizer,Brand A,44.5,3.1,"Glycerin,Zinc Oxide,Retinol",0,0,0,1,0,0,0,0,0
+72,Cleanser 72,Cleanser,Brand B,107.38,4.4,"Squalane,Vitamin C,Ceramides",1,0,0,0,1,0,1,1,0
+73,Cleanser 73,Cleanser,Brand D,136.93,3.8,"Hyaluronic Acid,Ceramides,Titanium Dioxide,Titanium Dioxide",1,0,1,0,0,1,1,0,0
+74,Serum 74,Serum,Brand C,16.05,4.7,"Glycerin,Retinol,Vitamin E,Zinc Oxide",0,1,1,1,1,0,0,1,0
+75,Toner 75,Toner,Brand B,12.29,4.7,"Aloe Vera,Chamomile,Zinc Oxide,Centella Asiatica,Glycolic Acid,Titanium Dioxide",0,1,0,0,0,1,1,1,0
+76,Sunscreen 76,Sunscreen,Brand D,80.67,3.4,"Glycolic Acid,Centella Asiatica,Titanium Dioxide,Ceramides,Vitamin E",0,0,1,0,1,0,1,0,0
+77,Moisturizer 77,Moisturizer,Brand B,75.93,4.6,"Hyaluronic Acid,Titanium Dioxide,Centella Asiatica,Glycerin",0,1,0,0,1,1,0,1,0
+78,Serum 78,Serum,Brand D,97.53,4.0,"Squalane,Vitamin C,Glycolic Acid,Chamomile",0,0,1,0,0,1,1,1,0
+79,Mask 79,Mask,Brand C,48.44,3.8,"Retinol,Hyaluronic Acid,Niacinamide",0,0,1,1,1,1,1,0,0
+80,Serum 80,Serum,Brand A,90.91,3.0,"Chamomile,Zinc Oxide,Glycerin,Glycerin",0,0,1,0,0,0,1,1,0
+81,Toner 81,Toner,Brand E,128.76,4.1,"Glycerin,Titanium Dioxide,Glycolic Acid,Titanium Dioxide",1,0,1,1,0,0,0,0,0
+82,Cleanser 82,Cleanser,Brand E,116.84,4.5,"Niacinamide,Ceramides,Centella Asiatica,Chamomile,Glycolic Acid,Vitamin E,Zinc Oxide",0,0,1,0,1,1,1,0,0
+83,Mask 83,Mask,Brand A,24.79,5.0,"Glycolic Acid,Salicylic Acid,Glycerin,Vitamin E,Vitamin E",1,0,0,0,0,1,0,1,0
+84,Mask 84,Mask,Brand C,47.92,3.1,"Glycerin,Lactic Acid,Glycerin,Squalane",0,0,0,1,0,1,0,0,0
+85,Moisturizer 85,Moisturizer,Brand C,68.11,3.4,"Zinc Oxide,Niacinamide,Vitamin C,Vitamin C,Centella Asiatica,Hyaluronic Acid",0,0,0,0,1,0,1,0,0
+86,Mask 86,Mask,Brand B,57.02,3.4,"Squalane,Ceramides,Vitamin E",0,1,1,0,1,0,0,0,0
+87,Toner 87,Toner,Brand D,51.04,3.9,"Centella Asiatica,Vitamin C,Niacinamide,Titanium Dioxide,Salicylic Acid",1,0,1,0,1,0,0,0,0
+88,Sunscreen 88,Sunscreen,Brand D,128.35,4.0,"Glycolic Acid,Ceramides,Ceramides,Salicylic Acid,Titanium Dioxide,Aloe Vera",0,0,0,1,1,1,1,1,0
+89,Toner 89,Toner,Brand C,94.75,4.2,"Aloe Vera,Hyaluronic Acid,Chamomile",0,1,0,1,0,0,1,0,0
+90,Serum 90,Serum,Brand C,65.24,4.6,"Retinol,Lactic Acid,Retinol,Chamomile,Glycolic Acid",0,1,1,1,0,0,1,1,0
+91,Moisturizer 91,Moisturizer,Brand A,87.22,5.0,"Centella Asiatica,Titanium Dioxide,Vitamin E,Chamomile,Glycolic Acid,Lactic Acid",0,1,1,0,0,0,0,0,0
+92,Serum 92,Serum,Brand C,119.57,4.3,"Centella Asiatica,Chamomile,Retinol,Vitamin E,Squalane,Retinol",0,1,1,0,1,1,0,0,0
+93,Mask 93,Mask,Brand C,20.68,4.8,"Zinc Oxide,Vitamin C,Hyaluronic Acid",1,1,1,1,1,1,0,0,0
+94,Serum 94,Serum,Brand C,53.98,3.7,"Lactic Acid,Zinc Oxide,Retinol,Centella Asiatica,Ceramides,Salicylic Acid",0,1,0,1,0,0,0,1,0
+95,Mask 95,Mask,Brand D,17.36,3.5,"Vitamin E,Salicylic Acid,Titanium Dioxide",0,1,0,0,0,1,0,0,0
+96,Toner 96,Toner,Brand C,23.02,3.2,"Centella Asiatica,Aloe Vera,Lactic Acid,Salicylic Acid",0,0,1,1,1,1,0,0,0
+97,Serum 97,Serum,Brand B,135.91,4.0,"Glycerin,Lactic Acid,Lactic Acid,Niacinamide,Aloe Vera,Chamomile,Niacinamide",0,0,1,1,1,1,1,0,0
+98,Moisturizer 98,Moisturizer,Brand A,90.87,3.7,"Vitamin C,Glycolic Acid,Vitamin E",0,1,0,0,0,1,1,1,0
+99,Serum 99,Serum,Brand B,79.78,4.0,"Salicylic Acid,Zinc Oxide,Zinc Oxide,Lactic Acid,Vitamin C",1,1,0,0,0,1,0,0,0
+100,Sunscreen 100,Sunscreen,Brand B,50.22,3.2,"Centella Asiatica,Vitamin E,Titanium Dioxide,Vitamin E,Hyaluronic Acid,Zinc Oxide",1,0,1,1,0,0,0,0,50
+101,Sunscreen 101,Sunscreen,Brand D,106.14,4.8,"Ceramides,Ceramides,Titanium Dioxide,Vitamin E,Vitamin E,Ceramides",0,1,0,0,0,0,0,1,50
+102,Sunscreen 102,Sunscreen,Brand D,21.08,4.2,"Retinol,Squalane,Retinol,Vitamin E,Glycerin",1,1,1,0,1,1,0,0,50
+103,Mask 103,Mask,Brand D,53.39,4.5,"Aloe Vera,Lactic Acid,Titanium Dioxide,Hyaluronic Acid,Ceramides",0,1,1,0,1,1,0,1,0
+104,Mask 104,Mask,Brand A,126.47,3.8,"Vitamin C,Lactic Acid,Vitamin C,Vitamin C,Glycolic Acid,Squalane,Retinol",0,0,0,0,0,0,0,1,0
+105,Mask 105,Mask,Brand A,81.35,4.4,"Glycolic Acid,Glycerin,Vitamin E",0,0,0,0,0,0,0,1,0
+106,Sunscreen 106,Sunscreen,Brand A,45.59,4.0,"Retinol,Niacinamide,Centella Asiatica,Zinc Oxide,Titanium Dioxide",0,0,1,0,0,0,0,1,0
+107,Sunscreen 107,Sunscreen,Brand D,129.21,4.2,"Aloe Vera,Retinol,Glycolic Acid,Salicylic Acid",0,1,1,0,1,0,1,0,30
+108,Mask 108,Mask,Brand E,132.83,3.2,"Vitamin C,Glycerin,Glycerin,Hyaluronic Acid,Vitamin C,Centella Asiatica,Niacinamide",1,0,0,1,1,1,1,0,0
+109,Serum 109,Serum,Brand C,102.62,3.3,"Aloe Vera,Salicylic Acid,Retinol,Zinc Oxide",0,1,1,0,1,1,1,1,0
+110,Serum 110,Serum,Brand A,49.78,4.5,"Aloe Vera,Centella Asiatica,Vitamin E,Zinc Oxide",0,1,1,1,0,1,1,0,0
+111,Cleanser 111,Cleanser,Brand A,144.8,4.3,"Glycolic Acid,Aloe Vera,Squalane,Centella Asiatica,Salicylic Acid,Vitamin C,Lactic Acid",1,0,1,0,1,1,1,0,0
+112,Moisturizer 112,Moisturizer,Brand D,117.26,4.5,"Vitamin E,Aloe Vera,Aloe Vera,Salicylic Acid",0,1,0,1,1,1,1,1,0
+113,Mask 113,Mask,Brand C,15.59,4.7,"Titanium Dioxide,Centella Asiatica,Chamomile,Centella Asiatica,Squalane,Niacinamide",0,0,1,0,0,1,1,1,0
+114,Sunscreen 114,Sunscreen,Brand B,96.69,3.5,"Retinol,Glycolic Acid,Glycerin,Vitamin E,Lactic Acid,Hyaluronic Acid",0,0,1,1,0,0,0,1,50
+115,Sunscreen 115,Sunscreen,Brand B,92.74,3.7,"Aloe Vera,Titanium Dioxide,Zinc Oxide,Lactic Acid",0,0,1,1,1,0,1,0,15
+116,Moisturizer 116,Moisturizer,Brand D,81.67,4.3,"Zinc Oxide,Niacinamide,Hyaluronic Acid,Lactic Acid",0,1,1,1,1,1,0,1,0
+117,Serum 117,Serum,Brand A,54.39,4.7,"Squalane,Glycolic Acid,Vitamin E",1,0,0,0,1,1,1,0,0
+118,Sunscreen 118,Sunscreen,Brand B,86.01,4.4,"Zinc Oxide,Niacinamide,Glycerin",0,1,0,1,0,0,1,0,30
+119,Toner 119,Toner,Brand D,14.36,4.0,"Vitamin E,Niacinamide,Squalane,Squalane,Glycerin,Salicylic Acid",1,0,0,0,0,1,1,0,0
+120,Mask 120,Mask,Brand E,43.26,3.5,"Vitamin E,Zinc Oxide,Hyaluronic Acid,Lactic Acid,Squalane,Zinc Oxide,Vitamin C",0,1,0,1,0,0,1,0,0
+121,Serum 121,Serum,Brand B,24.43,4.8,"Squalane,Vitamin C,Titanium Dioxide,Hyaluronic Acid,Titanium Dioxide,Glycerin,Niacinamide",1,1,0,1,0,1,1,0,0
+122,Sunscreen 122,Sunscreen,Brand B,100.31,4.0,"Ceramides,Hyaluronic Acid,Centella Asiatica,Glycerin,Vitamin C,Aloe Vera,Titanium Dioxide",0,1,1,0,0,1,0,0,50
+123,Serum 123,Serum,Brand B,98.3,3.9,"Chamomile,Titanium Dioxide,Glycolic Acid,Centella Asiatica,Vitamin E,Chamomile",1,0,0,0,1,0,1,1,0
+124,Cleanser 124,Cleanser,Brand B,108.71,3.6,"Centella Asiatica,Titanium Dioxide,Vitamin C,Squalane,Squalane",0,1,1,0,1,0,0,1,0
+125,Mask 125,Mask,Brand A,51.02,3.1,"Vitamin C,Chamomile,Glycerin",1,0,1,0,1,1,1,1,0
+126,Sunscreen 126,Sunscreen,Brand D,149.6,4.2,"Glycerin,Centella Asiatica,Glycerin,Glycerin,Lactic Acid",0,0,1,0,1,0,0,1,30
+127,Mask 127,Mask,Brand A,31.38,3.3,"Glycolic Acid,Ceramides,Vitamin E",1,1,0,0,0,0,0,0,0
+128,Cleanser 128,Cleanser,Brand E,123.33,4.3,"Centella Asiatica,Centella Asiatica,Niacinamide",0,1,0,1,1,1,0,1,0
+129,Mask 129,Mask,Brand C,37.61,3.4,"Aloe Vera,Retinol,Niacinamide,Glycolic Acid,Vitamin E,Niacinamide",0,0,0,1,0,0,1,0,0
+130,Toner 130,Toner,Brand B,68.59,3.8,"Vitamin E,Glycolic Acid,Hyaluronic Acid,Chamomile",0,1,0,0,1,0,0,0,0
+131,Sunscreen 131,Sunscreen,Brand C,43.38,3.0,"Hyaluronic Acid,Squalane,Lactic Acid,Aloe Vera",0,1,1,1,0,1,0,1,50
+132,Moisturizer 132,Moisturizer,Brand B,22.75,4.2,"Vitamin E,Lactic Acid,Glycerin,Aloe Vera",1,0,0,0,0,0,0,1,0
+133,Serum 133,Serum,Brand B,113.62,3.5,"Centella Asiatica,Salicylic Acid,Centella Asiatica,Vitamin C,Centella Asiatica,Salicylic Acid,Glycolic Acid",0,0,1,0,0,1,0,0,0
+134,Cleanser 134,Cleanser,Brand C,115.16,4.5,"Vitamin C,Chamomile,Glycerin,Chamomile",1,1,1,1,0,1,0,0,0
+135,Serum 135,Serum,Brand C,128.01,4.2,"Retinol,Titanium Dioxide,Chamomile",1,0,0,1,1,0,1,0,0
+136,Toner 136,Toner,Brand D,47.34,3.5,"Glycolic Acid,Squalane,Hyaluronic Acid",1,1,1,0,1,0,0,1,0
+137,Mask 137,Mask,Brand D,95.28,4.8,"Glycolic Acid,Retinol,Retinol,Salicylic Acid",1,1,0,1,0,0,1,0,0
+138,Moisturizer 138,Moisturizer,Brand C,134.56,3.8,"Centella Asiatica,Lactic Acid,Zinc Oxide,Vitamin E,Retinol,Glycerin",0,0,1,1,1,0,1,1,0
+139,Moisturizer 139,Moisturizer,Brand E,63.92,3.0,"Lactic Acid,Vitamin E,Aloe Vera",0,0,0,1,1,1,1,0,0
+140,Mask 140,Mask,Brand B,36.65,3.7,"Zinc Oxide,Glycerin,Titanium Dioxide",0,1,1,1,0,1,1,0,0
+141,Toner 141,Toner,Brand E,107.08,4.6,"Aloe Vera,Glycolic Acid,Hyaluronic Acid",0,1,1,0,1,0,1,1,0
+142,Moisturizer 142,Moisturizer,Brand C,47.52,3.8,"Ceramides,Retinol,Centella Asiatica,Salicylic Acid,Retinol",1,0,1,1,1,0,0,0,0
+143,Mask 143,Mask,Brand D,16.28,3.3,"Glycerin,Hyaluronic Acid,Lactic Acid,Ceramides",1,1,0,1,0,1,1,0,0
+144,Serum 144,Serum,Brand E,145.2,3.5,"Vitamin E,Centella Asiatica,Salicylic Acid,Salicylic Acid",1,0,1,1,1,0,1,1,0
+145,Toner 145,Toner,Brand A,42.92,4.5,"Centella Asiatica,Zinc Oxide,Titanium Dioxide",1,1,0,1,1,0,0,1,0
+146,Mask 146,Mask,Brand D,108.56,4.5,"Retinol,Squalane,Chamomile",0,1,1,0,1,1,0,0,0
+147,Toner 147,Toner,Brand C,42.21,3.2,"Squalane,Titanium Dioxide,Vitamin C,Lactic Acid,Vitamin E",1,0,1,0,0,1,0,1,0
+148,Mask 148,Mask,Brand B,13.69,5.0,"Zinc Oxide,Retinol,Salicylic Acid,Vitamin E,Lactic Acid,Vitamin E",1,0,0,0,1,0,0,1,0
+149,Mask 149,Mask,Brand A,107.12,4.8,"Chamomile,Zinc Oxide,Titanium Dioxide,Glycolic Acid,Zinc Oxide",0,0,1,1,1,1,1,1,0
+150,Sunscreen 150,Sunscreen,Brand B,54.59,4.1,"Vitamin C,Squalane,Niacinamide",0,0,1,0,0,1,1,1,50
+151,Serum 151,Serum,Brand C,95.32,3.8,"Squalane,Titanium Dioxide,Squalane",1,0,0,1,0,1,0,1,0
+152,Cleanser 152,Cleanser,Brand C,134.91,4.4,"Niacinamide,Glycerin,Chamomile,Vitamin C,Vitamin C,Centella Asiatica,Lactic Acid",1,1,0,0,0,1,1,1,0
+153,Mask 153,Mask,Brand D,17.61,3.5,"Glycerin,Squalane,Vitamin E",1,0,0,0,1,0,0,0,0
+154,Mask 154,Mask,Brand D,77.31,3.2,"Vitamin C,Ceramides,Lactic Acid,Glycolic Acid,Glycolic Acid,Titanium Dioxide,Lactic Acid",1,1,1,1,0,1,0,0,0
+155,Sunscreen 155,Sunscreen,Brand D,127.39,3.4,"Salicylic Acid,Glycolic Acid,Glycerin,Chamomile,Glycerin,Centella Asiatica,Glycerin",1,0,0,0,1,0,0,0,15
+156,Moisturizer 156,Moisturizer,Brand A,143.29,3.6,"Glycerin,Chamomile,Titanium Dioxide,Hyaluronic Acid,Squalane,Ceramides",0,1,1,0,1,1,1,0,0
+157,Toner 157,Toner,Brand E,67.63,3.2,"Vitamin C,Hyaluronic Acid,Ceramides,Hyaluronic Acid",1,1,0,0,1,0,1,0,0
+158,Cleanser 158,Cleanser,Brand D,31.09,4.8,"Retinol,Vitamin C,Vitamin E,Salicylic Acid,Centella Asiatica,Titanium Dioxide,Ceramides",1,0,0,0,0,1,1,0,0
+159,Sunscreen 159,Sunscreen,Brand D,72.76,3.2,"Ceramides,Ceramides,Vitamin E",1,1,0,1,0,1,1,0,15
+160,Moisturizer 160,Moisturizer,Brand A,121.28,3.5,"Chamomile,Lactic Acid,Ceramides,Hyaluronic Acid,Glycolic Acid,Titanium Dioxide,Niacinamide",0,0,0,0,1,1,1,1,0
+161,Toner 161,Toner,Brand D,113.29,3.9,"Salicylic Acid,Salicylic Acid,Centella Asiatica,Centella Asiatica,Glycerin,Vitamin C",0,1,0,0,0,0,0,1,0
+162,Serum 162,Serum,Brand E,69.25,4.1,"Hyaluronic Acid,Ceramides,Lactic Acid",1,1,1,1,1,0,1,1,0
+163,Cleanser 163,Cleanser,Brand E,79.56,3.9,"Squalane,Glycolic Acid,Aloe Vera,Chamomile,Vitamin E,Hyaluronic Acid,Titanium Dioxide",0,0,0,1,1,0,1,1,0
+164,Cleanser 164,Cleanser,Brand E,60.59,3.3,"Vitamin E,Salicylic Acid,Lactic Acid,Aloe Vera",0,0,1,1,0,1,1,0,0
+165,Serum 165,Serum,Brand D,21.35,4.8,"Niacinamide,Titanium Dioxide,Glycerin,Vitamin C,Glycolic Acid,Glycolic Acid,Glycerin",0,0,1,1,0,0,0,1,0
+166,Moisturizer 166,Moisturizer,Brand A,132.79,3.8,"Titanium Dioxide,Hyaluronic Acid,Glycerin,Niacinamide,Hyaluronic Acid,Ceramides,Vitamin C",0,1,0,0,1,1,0,0,0
+167,Serum 167,Serum,Brand D,143.02,4.4,"Glycerin,Chamomile,Ceramides,Glycerin",0,0,1,1,0,1,1,0,0
+168,Cleanser 168,Cleanser,Brand D,82.18,3.3,"Lactic Acid,Centella Asiatica,Lactic Acid,Vitamin C,Salicylic Acid,Retinol,Zinc Oxide",1,0,0,0,0,1,0,1,0
+169,Mask 169,Mask,Brand D,51.29,4.5,"Ceramides,Hyaluronic Acid,Lactic Acid,Glycolic Acid,Centella Asiatica,Centella Asiatica,Chamomile",0,0,1,1,1,1,1,0,0
+170,Sunscreen 170,Sunscreen,Brand A,85.8,4.2,"Salicylic Acid,Aloe Vera,Hyaluronic Acid,Chamomile",0,0,0,0,0,1,0,0,15
+171,Toner 171,Toner,Brand C,59.65,3.1,"Retinol,Titanium Dioxide,Vitamin E,Salicylic Acid,Titanium Dioxide,Vitamin E",0,1,1,0,1,1,1,1,0
+172,Sunscreen 172,Sunscreen,Brand E,26.77,3.3,"Zinc Oxide,Hyaluronic Acid,Hyaluronic Acid,Lactic Acid,Salicylic Acid,Aloe Vera",1,0,0,0,1,1,1,1,50
+173,Serum 173,Serum,Brand D,146.07,4.4,"Salicylic Acid,Niacinamide,Niacinamide,Salicylic Acid,Aloe Vera,Glycerin",0,1,0,0,1,0,0,0,0
+174,Serum 174,Serum,Brand D,49.87,3.2,"Glycerin,Lactic Acid,Niacinamide",0,0,1,0,0,1,1,1,0
+175,Mask 175,Mask,Brand B,146.01,4.9,"Titanium Dioxide,Salicylic Acid,Vitamin C,Lactic Acid,Centella Asiatica,Ceramides,Chamomile",1,0,1,1,1,0,1,1,0
+176,Mask 176,Mask,Brand A,19.02,3.5,"Glycerin,Squalane,Glycolic Acid,Retinol",0,0,1,0,0,0,1,1,0
+177,Sunscreen 177,Sunscreen,Brand D,70.29,3.2,"Lactic Acid,Hyaluronic Acid,Squalane",0,0,1,1,0,0,1,1,0
+178,Serum 178,Serum,Brand E,86.4,3.8,"Vitamin E,Squalane,Lactic Acid,Salicylic Acid,Vitamin E,Niacinamide",1,1,1,1,0,0,1,1,0
+179,Serum 179,Serum,Brand B,139.2,3.5,"Titanium Dioxide,Vitamin C,Ceramides,Titanium Dioxide,Glycerin,Vitamin E",1,1,1,1,0,1,1,1,0
+180,Cleanser 180,Cleanser,Brand E,51.79,4.0,"Aloe Vera,Aloe Vera,Squalane,Vitamin E",0,1,0,0,0,1,0,1,0
+181,Mask 181,Mask,Brand A,26.67,3.3,"Salicylic Acid,Chamomile,Niacinamide,Lactic Acid,Salicylic Acid,Squalane",1,1,1,1,0,1,0,1,0
+182,Moisturizer 182,Moisturizer,Brand E,132.1,4.0,"Vitamin E,Niacinamide,Zinc Oxide,Vitamin E,Aloe Vera,Centella Asiatica",1,0,1,1,1,0,1,1,0
+183,Serum 183,Serum,Brand A,74.81,3.3,"Hyaluronic Acid,Centella Asiatica,Glycerin,Salicylic Acid",0,0,0,1,0,0,1,1,0
+184,Sunscreen 184,Sunscreen,Brand A,129.27,4.5,"Retinol,Titanium Dioxide,Aloe Vera",0,0,0,0,0,0,1,0,30
+185,Moisturizer 185,Moisturizer,Brand D,145.02,4.8,"Lactic Acid,Glycolic Acid,Titanium Dioxide,Lactic Acid,Hyaluronic Acid,Retinol,Salicylic Acid",1,0,0,1,0,0,1,1,0
+186,Serum 186,Serum,Brand B,116.53,4.1,"Aloe Vera,Hyaluronic Acid,Glycerin",1,1,1,1,0,0,0,0,0
+187,Sunscreen 187,Sunscreen,Brand D,75.61,3.2,"Ceramides,Lactic Acid,Chamomile,Chamomile,Salicylic Acid,Hyaluronic Acid",0,1,1,0,1,0,1,0,30
+188,Serum 188,Serum,Brand A,35.62,3.9,"Chamomile,Aloe Vera,Ceramides",1,1,1,1,1,0,0,0,0
+189,Moisturizer 189,Moisturizer,Brand A,131.93,3.0,"Aloe Vera,Niacinamide,Retinol,Hyaluronic Acid,Aloe Vera,Zinc Oxide",1,1,1,0,0,0,0,0,0
+190,Toner 190,Toner,Brand D,132.68,3.5,"Zinc Oxide,Vitamin C,Zinc Oxide,Hyaluronic Acid",0,0,1,0,1,0,1,1,0
+191,Mask 191,Mask,Brand B,148.19,3.6,"Retinol,Retinol,Centella Asiatica,Hyaluronic Acid,Hyaluronic Acid",0,1,0,0,1,1,0,0,0
+192,Cleanser 192,Cleanser,Brand D,97.62,4.4,"Glycerin,Centella Asiatica,Centella Asiatica,Aloe Vera,Zinc Oxide,Centella Asiatica,Squalane",0,0,1,1,1,1,1,0,0
+193,Sunscreen 193,Sunscreen,Brand C,128.9,3.3,"Retinol,Lactic Acid,Titanium Dioxide,Hyaluronic Acid,Vitamin E,Glycolic Acid,Retinol",1,1,1,0,0,0,1,1,50
+194,Sunscreen 194,Sunscreen,Brand D,115.17,3.4,"Salicylic Acid,Aloe Vera,Squalane,Vitamin C,Glycerin,Aloe Vera,Glycolic Acid",1,0,0,1,0,0,0,1,30
+195,Sunscreen 195,Sunscreen,Brand E,104.87,3.7,"Chamomile,Salicylic Acid,Ceramides,Niacinamide,Vitamin E,Lactic Acid",1,0,0,0,1,1,1,0,30
+196,Serum 196,Serum,Brand E,90.35,3.3,"Vitamin C,Chamomile,Hyaluronic Acid",0,1,0,0,1,0,0,0,0
+197,Toner 197,Toner,Brand B,29.29,3.1,"Aloe Vera,Squalane,Ceramides",1,1,1,0,1,1,1,0,0
+198,Serum 198,Serum,Brand B,74.5,4.6,"Glycerin,Ceramides,Centella Asiatica,Chamomile",0,1,0,1,0,0,1,1,0
+199,Mask 199,Mask,Brand B,92.02,4.6,"Squalane,Vitamin C,Lactic Acid,Centella Asiatica,Salicylic Acid,Chamomile,Vitamin C",0,0,1,0,0,0,1,0,0
+200,Moisturizer 200,Moisturizer,Brand D,126.79,4.0,"Vitamin E,Vitamin E,Zinc Oxide,Vitamin E",0,0,0,1,1,1,1,1,0
+201,Mask 201,Mask,Brand E,70.5,4.4,"Lactic Acid,Vitamin E,Titanium Dioxide,Glycerin,Ceramides",0,0,1,0,1,1,1,0,0
+202,Toner 202,Toner,Brand D,107.1,4.8,"Lactic Acid,Chamomile,Hyaluronic Acid,Retinol,Salicylic Acid,Titanium Dioxide,Ceramides",1,1,1,1,1,1,1,1,0
+203,Sunscreen 203,Sunscreen,Brand B,138.72,3.1,"Zinc Oxide,Centella Asiatica,Salicylic Acid",0,0,0,0,0,1,0,0,0
+204,Serum 204,Serum,Brand C,88.49,4.5,"Zinc Oxide,Vitamin E,Niacinamide,Hyaluronic Acid,Chamomile,Zinc Oxide",0,0,1,1,0,1,1,1,0
+205,Sunscreen 205,Sunscreen,Brand D,37.2,3.7,"Salicylic Acid,Lactic Acid,Hyaluronic Acid,Niacinamide,Hyaluronic Acid",1,0,0,1,1,1,1,1,50
+206,Moisturizer 206,Moisturizer,Brand A,91.19,3.8,"Ceramides,Chamomile,Hyaluronic Acid,Glycolic Acid,Lactic Acid",1,0,0,1,0,0,0,1,0
+207,Toner 207,Toner,Brand D,113.75,3.6,"Niacinamide,Titanium Dioxide,Squalane",1,0,1,0,1,1,0,1,0
+208,Toner 208,Toner,Brand B,50.67,4.3,"Vitamin C,Aloe Vera,Zinc Oxide,Hyaluronic Acid",0,1,0,1,0,0,1,0,0
+209,Moisturizer 209,Moisturizer,Brand D,70.18,4.4,"Zinc Oxide,Aloe Vera,Glycerin,Centella Asiatica,Niacinamide,Glycolic Acid",1,0,0,0,1,0,0,0,0
+210,Toner 210,Toner,Brand E,118.2,3.4,"Centella Asiatica,Titanium Dioxide,Vitamin E,Vitamin C,Zinc Oxide,Salicylic Acid,Centella Asiatica",0,1,0,0,0,0,0,1,0
+211,Cleanser 211,Cleanser,Brand A,87.28,3.1,"Salicylic Acid,Vitamin E,Ceramides,Glycolic Acid",0,0,1,0,1,1,0,0,0
+212,Toner 212,Toner,Brand B,18.29,4.9,"Titanium Dioxide,Vitamin C,Chamomile",0,1,0,0,1,1,1,1,0
+213,Serum 213,Serum,Brand D,50.23,3.7,"Glycolic Acid,Glycolic Acid,Glycerin,Centella Asiatica,Hyaluronic Acid",0,0,0,1,1,1,1,1,0
+214,Moisturizer 214,Moisturizer,Brand E,43.47,3.5,"Salicylic Acid,Glycerin,Ceramides,Vitamin C,Centella Asiatica,Retinol",0,0,1,1,1,1,1,1,0
+215,Moisturizer 215,Moisturizer,Brand A,64.38,4.9,"Ceramides,Vitamin C,Vitamin E",1,0,0,1,0,1,1,0,0
+216,Toner 216,Toner,Brand E,119.0,4.9,"Chamomile,Hyaluronic Acid,Niacinamide",0,0,0,1,1,0,0,0,0
+217,Toner 217,Toner,Brand A,27.93,3.0,"Lactic Acid,Niacinamide,Lactic Acid,Vitamin C",0,0,1,0,0,0,1,0,0
+218,Toner 218,Toner,Brand D,76.31,3.6,"Lactic Acid,Chamomile,Hyaluronic Acid,Chamomile,Glycolic Acid,Glycolic Acid,Ceramides",1,1,0,1,0,0,0,0,0
+219,Sunscreen 219,Sunscreen,Brand E,48.61,4.0,"Hyaluronic Acid,Glycolic Acid,Glycolic Acid,Centella Asiatica,Retinol,Retinol",1,1,0,0,0,1,1,1,50
+220,Sunscreen 220,Sunscreen,Brand D,90.0,5.0,"Vitamin E,Glycerin,Centella Asiatica,Titanium Dioxide,Vitamin E",1,0,0,1,1,1,0,0,50
+221,Serum 221,Serum,Brand A,137.34,3.4,"Aloe Vera,Titanium Dioxide,Niacinamide,Titanium Dioxide,Retinol,Titanium Dioxide",1,1,1,1,1,0,0,1,0
+222,Mask 222,Mask,Brand A,57.17,4.6,"Zinc Oxide,Vitamin C,Vitamin C,Vitamin E,Chamomile,Titanium Dioxide,Niacinamide",0,0,1,0,0,1,0,0,0
+223,Moisturizer 223,Moisturizer,Brand D,30.04,3.7,"Ceramides,Vitamin C,Glycolic Acid,Centella Asiatica,Titanium Dioxide,Retinol,Vitamin C",0,0,0,1,0,1,1,1,0
+224,Sunscreen 224,Sunscreen,Brand C,56.07,4.4,"Squalane,Aloe Vera,Lactic Acid,Titanium Dioxide,Lactic Acid,Hyaluronic Acid",1,1,1,1,0,1,0,0,50
+225,Serum 225,Serum,Brand D,136.75,4.2,"Salicylic Acid,Glycerin,Titanium Dioxide,Ceramides,Hyaluronic Acid,Glycolic Acid,Hyaluronic Acid",1,0,1,0,1,1,0,1,0
+226,Serum 226,Serum,Brand E,52.8,4.5,"Ceramides,Centella Asiatica,Glycolic Acid,Hyaluronic Acid,Vitamin E",1,1,0,0,1,1,0,1,0
+227,Mask 227,Mask,Brand C,124.43,4.5,"Centella Asiatica,Squalane,Glycolic Acid,Titanium Dioxide",1,0,0,0,0,0,1,1,0
+228,Mask 228,Mask,Brand B,110.42,3.8,"Glycerin,Glycerin,Zinc Oxide,Squalane,Squalane,Squalane,Aloe Vera",1,0,0,1,0,0,0,1,0
+229,Sunscreen 229,Sunscreen,Brand C,104.15,3.1,"Zinc Oxide,Ceramides,Hyaluronic Acid,Vitamin E,Niacinamide",1,0,0,0,0,0,1,1,30
+230,Mask 230,Mask,Brand D,109.03,3.5,"Centella Asiatica,Titanium Dioxide,Aloe Vera,Vitamin E,Vitamin C,Glycolic Acid",0,0,1,1,1,1,0,0,0
+231,Cleanser 231,Cleanser,Brand D,47.17,4.9,"Glycerin,Lactic Acid,Niacinamide,Salicylic Acid,Lactic Acid",0,1,1,0,1,1,0,0,0
+232,Sunscreen 232,Sunscreen,Brand E,97.75,4.2,"Titanium Dioxide,Hyaluronic Acid,Titanium Dioxide,Centella Asiatica,Aloe Vera,Ceramides,Vitamin C",0,1,1,0,0,0,0,0,0
+233,Toner 233,Toner,Brand D,126.07,4.5,"Glycolic Acid,Hyaluronic Acid,Aloe Vera",1,1,1,1,0,1,1,0,0
+234,Toner 234,Toner,Brand E,11.62,4.4,"Aloe Vera,Zinc Oxide,Aloe Vera,Titanium Dioxide,Squalane,Niacinamide",0,0,0,1,0,1,1,1,0
+235,Sunscreen 235,Sunscreen,Brand A,84.3,4.8,"Chamomile,Vitamin C,Ceramides",1,0,0,0,1,0,1,1,0
+236,Toner 236,Toner,Brand A,144.34,4.5,"Aloe Vera,Chamomile,Salicylic Acid,Retinol,Vitamin E,Lactic Acid",0,1,1,0,1,1,0,1,0
+237,Serum 237,Serum,Brand C,87.11,4.3,"Glycolic Acid,Chamomile,Glycolic Acid",1,0,1,0,1,1,1,1,0
+238,Moisturizer 238,Moisturizer,Brand A,128.44,3.4,"Glycolic Acid,Salicylic Acid,Titanium Dioxide,Zinc Oxide,Vitamin E",0,0,0,0,0,0,0,1,0
+239,Serum 239,Serum,Brand B,83.98,3.2,"Zinc Oxide,Squalane,Ceramides,Centella Asiatica,Centella Asiatica,Titanium Dioxide",1,0,1,1,0,1,0,1,0
+240,Serum 240,Serum,Brand C,105.72,4.6,"Hyaluronic Acid,Lactic Acid,Vitamin E,Zinc Oxide,Niacinamide,Aloe Vera,Glycolic Acid",0,0,1,0,0,0,0,1,0
+241,Toner 241,Toner,Brand C,108.91,4.4,"Aloe Vera,Hyaluronic Acid,Zinc Oxide,Zinc Oxide,Squalane",0,1,1,0,0,0,0,1,0
+242,Sunscreen 242,Sunscreen,Brand B,57.03,4.5,"Glycolic Acid,Glycerin,Squalane,Salicylic Acid,Salicylic Acid",1,0,0,0,0,1,0,0,30
+243,Cleanser 243,Cleanser,Brand E,30.81,3.7,"Chamomile,Hyaluronic Acid,Zinc Oxide,Squalane",0,0,0,0,1,1,1,0,0
+244,Toner 244,Toner,Brand A,128.65,4.7,"Niacinamide,Lactic Acid,Hyaluronic Acid,Salicylic Acid,Glycerin",1,1,1,0,1,1,1,1,0
+245,Serum 245,Serum,Brand C,72.87,4.4,"Hyaluronic Acid,Retinol,Retinol,Vitamin C,Niacinamide,Zinc Oxide,Zinc Oxide",0,0,1,1,1,0,1,0,0
+246,Mask 246,Mask,Brand E,43.86,3.9,"Zinc Oxide,Aloe Vera,Hyaluronic Acid,Lactic Acid,Vitamin C,Glycolic Acid",1,0,0,1,0,0,0,1,0
+247,Toner 247,Toner,Brand E,143.36,4.8,"Niacinamide,Ceramides,Centella Asiatica",0,0,0,1,0,1,0,0,0
+248,Sunscreen 248,Sunscreen,Brand B,72.4,4.6,"Niacinamide,Ceramides,Aloe Vera,Ceramides",1,0,1,0,1,1,1,1,50
+249,Serum 249,Serum,Brand B,106.87,4.8,"Vitamin E,Squalane,Retinol",1,1,1,1,1,0,1,0,0
+250,Mask 250,Mask,Brand C,124.18,4.2,"Centella Asiatica,Retinol,Zinc Oxide,Aloe Vera",0,0,0,1,1,1,0,1,0
+251,Moisturizer 251,Moisturizer,Brand D,135.81,4.4,"Centella Asiatica,Retinol,Retinol,Hyaluronic Acid,Titanium Dioxide,Hyaluronic Acid",0,1,0,0,1,0,0,1,0
+252,Moisturizer 252,Moisturizer,Brand A,56.49,4.3,"Vitamin E,Zinc Oxide,Hyaluronic Acid",1,0,0,1,1,0,1,0,0
+253,Serum 253,Serum,Brand C,104.52,3.5,"Aloe Vera,Hyaluronic Acid,Chamomile,Hyaluronic Acid,Hyaluronic Acid,Retinol,Squalane",1,0,1,0,1,0,0,0,0
+254,Sunscreen 254,Sunscreen,Brand B,30.95,4.5,"Niacinamide,Titanium Dioxide,Glycerin,Titanium Dioxide",1,1,0,1,1,0,0,1,30
+255,Mask 255,Mask,Brand A,24.7,5.0,"Aloe Vera,Squalane,Salicylic Acid,Zinc Oxide",1,1,1,0,1,0,0,0,0
+256,Mask 256,Mask,Brand B,18.98,4.7,"Salicylic Acid,Centella Asiatica,Glycolic Acid,Vitamin C,Vitamin E,Glycolic Acid,Glycolic Acid",1,0,0,0,1,1,0,1,0
+257,Cleanser 257,Cleanser,Brand E,77.27,3.0,"Titanium Dioxide,Aloe Vera,Salicylic Acid,Centella Asiatica,Lactic Acid",0,0,0,0,1,0,1,1,0
+258,Toner 258,Toner,Brand C,78.8,3.7,"Lactic Acid,Glycolic Acid,Glycerin,Salicylic Acid",0,0,1,1,0,0,0,1,0
+259,Sunscreen 259,Sunscreen,Brand B,14.01,4.2,"Ceramides,Lactic Acid,Glycolic Acid,Niacinamide,Ceramides",0,0,1,0,1,1,1,1,30
+260,Moisturizer 260,Moisturizer,Brand D,67.48,4.9,"Aloe Vera,Vitamin E,Centella Asiatica,Salicylic Acid",1,1,0,0,1,0,1,0,0
+261,Mask 261,Mask,Brand B,136.23,3.9,"Salicylic Acid,Salicylic Acid,Zinc Oxide,Chamomile",1,1,1,1,0,0,0,1,0
+262,Serum 262,Serum,Brand C,116.6,3.2,"Vitamin E,Lactic Acid,Retinol,Niacinamide,Chamomile,Squalane,Hyaluronic Acid",0,0,0,0,1,0,1,1,0
+263,Serum 263,Serum,Brand D,67.26,4.3,"Retinol,Retinol,Lactic Acid,Vitamin E,Zinc Oxide,Niacinamide",0,1,0,0,0,1,0,0,0
+264,Cleanser 264,Cleanser,Brand A,38.65,3.1,"Lactic Acid,Titanium Dioxide,Hyaluronic Acid,Squalane,Chamomile,Lactic Acid,Glycerin",0,0,0,1,1,1,1,1,0
+265,Toner 265,Toner,Brand B,95.1,4.0,"Niacinamide,Centella Asiatica,Titanium Dioxide,Aloe Vera,Glycerin,Vitamin C,Vitamin E",1,1,0,1,1,0,1,0,0
+266,Mask 266,Mask,Brand B,142.29,3.9,"Titanium Dioxide,Retinol,Vitamin C,Zinc Oxide,Niacinamide,Squalane",1,1,0,1,0,0,1,1,0
+267,Toner 267,Toner,Brand C,35.23,4.0,"Squalane,Vitamin E,Hyaluronic Acid,Hyaluronic Acid",0,1,0,0,1,1,0,0,0
+268,Mask 268,Mask,Brand E,19.64,3.2,"Glycolic Acid,Glycolic Acid,Centella Asiatica,Glycerin,Niacinamide,Squalane,Niacinamide",0,1,1,1,0,0,0,0,0
+269,Mask 269,Mask,Brand B,105.56,3.2,"Vitamin E,Retinol,Aloe Vera,Ceramides,Lactic Acid,Titanium Dioxide",1,0,0,1,0,1,1,1,0
+270,Moisturizer 270,Moisturizer,Brand D,24.82,4.8,"Vitamin E,Centella Asiatica,Glycolic Acid,Centella Asiatica,Vitamin E,Vitamin C,Niacinamide",1,1,0,0,0,0,0,0,0
+271,Cleanser 271,Cleanser,Brand D,103.53,4.9,"Salicylic Acid,Titanium Dioxide,Squalane",1,1,1,1,1,1,1,1,0
+272,Moisturizer 272,Moisturizer,Brand D,80.1,3.8,"Vitamin C,Centella Asiatica,Glycolic Acid,Titanium Dioxide,Lactic Acid,Retinol",1,0,0,0,1,0,1,1,0
+273,Toner 273,Toner,Brand B,104.96,4.7,"Centella Asiatica,Squalane,Lactic Acid,Titanium Dioxide",0,0,0,0,1,1,0,0,0
+274,Mask 274,Mask,Brand D,52.7,4.2,"Chamomile,Vitamin C,Centella Asiatica,Vitamin C",0,0,1,1,0,0,1,1,0
+275,Cleanser 275,Cleanser,Brand B,147.43,4.0,"Zinc Oxide,Centella Asiatica,Squalane",0,0,0,0,1,0,0,1,0
+276,Mask 276,Mask,Brand C,37.66,3.3,"Aloe Vera,Centella Asiatica,Squalane,Aloe Vera",1,1,0,0,1,0,0,0,0
+277,Mask 277,Mask,Brand B,16.82,4.6,"Chamomile,Zinc Oxide,Chamomile,Hyaluronic Acid,Vitamin C",0,1,0,1,1,0,0,1,0
+278,Toner 278,Toner,Brand A,136.46,5.0,"Titanium Dioxide,Zinc Oxide,Ceramides,Zinc Oxide,Glycolic Acid",0,1,1,0,1,0,0,0,0
+279,Mask 279,Mask,Brand B,126.39,4.3,"Zinc Oxide,Aloe Vera,Glycerin",0,0,1,0,0,0,0,1,0
+280,Cleanser 280,Cleanser,Brand C,143.45,5.0,"Centella Asiatica,Aloe Vera,Vitamin E,Aloe Vera,Squalane,Vitamin E",0,1,0,0,1,1,1,1,0
+281,Toner 281,Toner,Brand A,32.23,3.4,"Niacinamide,Chamomile,Titanium Dioxide,Glycerin",1,0,1,1,1,0,1,1,0
+282,Toner 282,Toner,Brand B,109.93,4.7,"Centella Asiatica,Squalane,Zinc Oxide,Titanium Dioxide",1,1,0,1,0,0,0,0,0
+283,Sunscreen 283,Sunscreen,Brand A,143.15,4.3,"Hyaluronic Acid,Glycolic Acid,Titanium Dioxide,Centella Asiatica,Zinc Oxide,Aloe Vera",0,1,0,0,0,0,0,0,50
+284,Mask 284,Mask,Brand A,53.67,3.1,"Vitamin E,Glycolic Acid,Ceramides",0,1,0,1,0,0,0,0,0
+285,Sunscreen 285,Sunscreen,Brand D,42.77,3.4,"Titanium Dioxide,Glycerin,Lactic Acid",0,1,1,0,0,0,1,1,50
+286,Mask 286,Mask,Brand D,58.11,3.8,"Aloe Vera,Squalane,Glycerin,Zinc Oxide,Lactic Acid,Niacinamide,Titanium Dioxide",1,0,0,0,1,1,0,0,0
+287,Moisturizer 287,Moisturizer,Brand A,91.28,3.7,"Aloe Vera,Niacinamide,Niacinamide,Aloe Vera",0,1,0,1,1,0,0,1,0
+288,Moisturizer 288,Moisturizer,Brand A,40.8,3.7,"Niacinamide,Centella Asiatica,Titanium Dioxide,Salicylic Acid,Glycerin,Niacinamide",1,0,1,0,1,1,1,1,0
+289,Serum 289,Serum,Brand E,41.41,4.9,"Vitamin E,Titanium Dioxide,Lactic Acid,Lactic Acid",1,0,0,0,0,0,0,0,0
+290,Moisturizer 290,Moisturizer,Brand A,145.94,4.0,"Vitamin E,Vitamin E,Zinc Oxide",1,1,0,1,0,1,0,0,0
+291,Toner 291,Toner,Brand E,35.52,4.5,"Centella Asiatica,Titanium Dioxide,Salicylic Acid,Zinc Oxide,Vitamin C,Chamomile,Lactic Acid",1,1,0,1,0,1,0,1,0
+292,Toner 292,Toner,Brand B,68.09,3.5,"Niacinamide,Vitamin C,Centella Asiatica,Chamomile",1,0,1,0,1,0,0,1,0
+293,Serum 293,Serum,Brand E,50.13,4.5,"Chamomile,Titanium Dioxide,Glycerin,Vitamin E,Niacinamide,Niacinamide",1,1,1,0,0,1,1,1,0
+294,Moisturizer 294,Moisturizer,Brand A,123.22,4.6,"Salicylic Acid,Ceramides,Retinol,Squalane,Zinc Oxide,Salicylic Acid",0,1,1,0,1,0,0,1,0
+295,Sunscreen 295,Sunscreen,Brand C,48.01,3.3,"Salicylic Acid,Niacinamide,Squalane,Salicylic Acid,Salicylic Acid",0,0,1,1,1,1,1,0,0
+296,Mask 296,Mask,Brand A,35.87,4.4,"Glycolic Acid,Glycerin,Aloe Vera,Glycerin,Vitamin C",1,1,1,0,0,1,0,1,0
+297,Mask 297,Mask,Brand C,141.37,3.2,"Aloe Vera,Glycerin,Squalane,Glycolic Acid",0,0,0,0,0,1,1,0,0
+298,Moisturizer 298,Moisturizer,Brand D,83.05,3.4,"Retinol,Glycerin,Glycerin,Chamomile,Titanium Dioxide,Vitamin E,Squalane",0,1,0,1,0,1,0,0,0
+299,Mask 299,Mask,Brand D,18.36,4.5,"Hyaluronic Acid,Niacinamide,Vitamin C,Niacinamide",1,1,1,0,0,0,1,1,0
+300,Cleanser 300,Cleanser,Brand E,66.75,3.2,"Hyaluronic Acid,Ceramides,Glycerin",1,0,0,1,1,0,0,0,0
+301,Toner 301,Toner,Brand C,51.81,4.3,"Vitamin C,Retinol,Centella Asiatica",0,1,1,1,1,0,1,1,0
+302,Toner 302,Toner,Brand A,54.07,3.8,"Squalane,Ceramides,Vitamin E,Vitamin C,Vitamin E,Chamomile",1,0,1,0,1,1,0,1,0
+303,Serum 303,Serum,Brand E,134.51,4.9,"Centella Asiatica,Vitamin E,Chamomile,Salicylic Acid,Vitamin E,Centella Asiatica",0,1,1,1,0,0,1,1,0
+304,Cleanser 304,Cleanser,Brand E,142.11,3.8,"Vitamin C,Lactic Acid,Vitamin C",0,1,0,1,0,1,0,0,0
+305,Sunscreen 305,Sunscreen,Brand B,132.44,3.1,"Squalane,Ceramides,Aloe Vera,Chamomile,Squalane,Squalane",0,1,0,0,1,0,0,0,30
+306,Cleanser 306,Cleanser,Brand B,42.45,3.9,"Zinc Oxide,Titanium Dioxide,Glycolic Acid,Niacinamide,Centella Asiatica,Aloe Vera",0,1,0,1,0,0,1,0,0
+307,Mask 307,Mask,Brand E,77.12,3.5,"Zinc Oxide,Centella Asiatica,Lactic Acid,Salicylic Acid,Centella Asiatica,Aloe Vera,Vitamin E",0,1,1,0,0,1,1,1,0
+308,Toner 308,Toner,Brand B,58.73,3.5,"Retinol,Squalane,Vitamin E,Ceramides,Glycolic Acid,Titanium Dioxide,Glycolic Acid",1,1,0,0,1,1,0,1,0
+309,Mask 309,Mask,Brand B,31.8,3.3,"Aloe Vera,Zinc Oxide,Vitamin E,Vitamin C,Retinol",1,0,0,0,0,1,0,0,0
+310,Mask 310,Mask,Brand A,135.49,3.8,"Retinol,Niacinamide,Titanium Dioxide,Chamomile,Chamomile,Chamomile,Niacinamide",1,0,0,0,1,0,0,0,0
+311,Cleanser 311,Cleanser,Brand D,121.78,4.6,"Squalane,Salicylic Acid,Glycolic Acid",1,1,1,1,0,0,0,1,0
+312,Serum 312,Serum,Brand E,60.42,3.7,"Vitamin E,Salicylic Acid,Zinc Oxide,Ceramides,Aloe Vera,Zinc Oxide,Chamomile",1,1,1,0,0,1,1,1,0
+313,Mask 313,Mask,Brand B,30.46,3.6,"Vitamin C,Ceramides,Retinol,Chamomile,Centella Asiatica,Chamomile,Retinol",0,0,0,1,0,0,1,1,0
+314,Mask 314,Mask,Brand B,63.29,4.2,"Chamomile,Retinol,Hyaluronic Acid,Vitamin E,Vitamin C",0,1,1,0,1,1,1,1,0
+315,Mask 315,Mask,Brand A,10.46,3.1,"Centella Asiatica,Salicylic Acid,Glycolic Acid,Zinc Oxide",1,1,1,0,1,1,1,0,0
+316,Moisturizer 316,Moisturizer,Brand D,67.43,4.7,"Vitamin E,Vitamin E,Glycolic Acid",0,1,0,0,1,0,1,0,0
+317,Moisturizer 317,Moisturizer,Brand B,105.88,3.9,"Titanium Dioxide,Aloe Vera,Ceramides",1,0,1,1,0,1,1,0,0
+318,Mask 318,Mask,Brand D,24.8,3.0,"Retinol,Vitamin E,Squalane,Lactic Acid,Vitamin C,Chamomile",0,0,0,1,0,1,1,1,0
+319,Toner 319,Toner,Brand D,121.64,4.5,"Retinol,Vitamin E,Niacinamide,Lactic Acid,Chamomile,Squalane",0,1,0,1,0,0,1,0,0
+320,Toner 320,Toner,Brand E,65.8,3.2,"Vitamin C,Ceramides,Hyaluronic Acid",1,0,0,1,1,1,1,0,0
+321,Cleanser 321,Cleanser,Brand A,68.46,3.4,"Vitamin C,Glycerin,Chamomile,Glycerin,Squalane,Vitamin C,Chamomile",1,1,0,1,0,0,1,1,0
+322,Toner 322,Toner,Brand B,116.67,3.7,"Glycerin,Centella Asiatica,Aloe Vera",1,0,1,1,0,1,0,0,0
+323,Cleanser 323,Cleanser,Brand A,73.45,4.1,"Niacinamide,Lactic Acid,Centella Asiatica,Aloe Vera",1,1,0,0,1,1,1,0,0
+324,Sunscreen 324,Sunscreen,Brand C,98.53,4.5,"Chamomile,Niacinamide,Vitamin E,Squalane,Glycolic Acid",0,0,0,0,0,1,0,1,50
+325,Moisturizer 325,Moisturizer,Brand D,59.59,4.7,"Glycolic Acid,Hyaluronic Acid,Niacinamide",0,0,0,1,0,0,1,1,0
+326,Toner 326,Toner,Brand B,60.24,4.6,"Squalane,Aloe Vera,Ceramides,Lactic Acid",1,0,0,1,1,0,0,0,0
+327,Sunscreen 327,Sunscreen,Brand D,122.15,4.9,"Retinol,Niacinamide,Lactic Acid,Glycerin,Lactic Acid,Salicylic Acid",1,0,1,0,0,0,0,0,30
+328,Serum 328,Serum,Brand B,71.05,4.9,"Retinol,Squalane,Ceramides,Hyaluronic Acid,Zinc Oxide",0,1,0,1,1,0,0,0,0
+329,Serum 329,Serum,Brand B,26.47,4.2,"Niacinamide,Glycolic Acid,Ceramides,Squalane,Chamomile",1,0,1,0,0,0,0,1,0
+330,Cleanser 330,Cleanser,Brand E,59.79,3.9,"Ceramides,Chamomile,Vitamin E",0,0,1,1,1,1,0,1,0
+331,Cleanser 331,Cleanser,Brand A,53.72,3.5,"Aloe Vera,Vitamin C,Glycerin,Centella Asiatica,Aloe Vera,Lactic Acid,Glycolic Acid",1,0,0,0,0,1,0,1,0
+332,Cleanser 332,Cleanser,Brand A,24.92,3.3,"Salicylic Acid,Glycerin,Vitamin C,Hyaluronic Acid,Chamomile,Zinc Oxide,Vitamin E",0,1,0,1,1,1,0,1,0
+333,Toner 333,Toner,Brand A,22.94,4.0,"Aloe Vera,Vitamin C,Zinc Oxide,Salicylic Acid,Aloe Vera,Zinc Oxide",1,0,1,1,1,1,1,0,0
+334,Moisturizer 334,Moisturizer,Brand D,46.69,4.8,"Niacinamide,Chamomile,Lactic Acid,Chamomile",1,0,0,0,0,0,0,0,0
+335,Cleanser 335,Cleanser,Brand B,90.17,3.6,"Glycolic Acid,Salicylic Acid,Centella Asiatica,Vitamin E,Glycolic Acid",1,0,0,1,1,0,1,1,0
+336,Moisturizer 336,Moisturizer,Brand A,94.81,3.3,"Glycerin,Titanium Dioxide,Zinc Oxide,Aloe Vera,Ceramides,Vitamin C",0,0,1,0,1,0,1,0,0
+337,Toner 337,Toner,Brand E,138.83,3.7,"Salicylic Acid,Glycolic Acid,Aloe Vera,Aloe Vera,Glycolic Acid,Lactic Acid,Vitamin C",1,1,0,0,1,0,0,0,0
+338,Moisturizer 338,Moisturizer,Brand A,75.46,4.7,"Titanium Dioxide,Titanium Dioxide,Retinol,Hyaluronic Acid,Glycerin",1,1,1,0,0,1,1,1,0
+339,Serum 339,Serum,Brand C,147.01,4.0,"Zinc Oxide,Zinc Oxide,Hyaluronic Acid,Hyaluronic Acid,Vitamin C,Glycerin,Niacinamide",0,1,1,1,1,1,0,0,0
+340,Serum 340,Serum,Brand E,41.78,4.3,"Centella Asiatica,Aloe Vera,Ceramides",1,1,0,0,0,1,0,0,0
+341,Serum 341,Serum,Brand A,104.21,4.1,"Hyaluronic Acid,Aloe Vera,Glycerin,Vitamin E",1,1,1,0,1,1,0,0,0
+342,Serum 342,Serum,Brand C,94.89,4.0,"Hyaluronic Acid,Glycerin,Squalane,Chamomile",1,1,0,0,1,1,1,1,0
+343,Moisturizer 343,Moisturizer,Brand E,113.64,4.6,"Hyaluronic Acid,Salicylic Acid,Zinc Oxide,Chamomile",0,0,0,1,0,0,1,0,0
+344,Serum 344,Serum,Brand C,20.52,3.6,"Squalane,Zinc Oxide,Vitamin C",1,1,1,1,1,0,1,1,0
+345,Toner 345,Toner,Brand C,51.39,4.4,"Vitamin E,Ceramides,Centella Asiatica",1,0,1,1,1,0,0,0,0
+346,Moisturizer 346,Moisturizer,Brand B,39.24,3.1,"Ceramides,Glycerin,Aloe Vera",0,1,0,0,1,1,1,1,0
+347,Sunscreen 347,Sunscreen,Brand E,13.13,4.6,"Zinc Oxide,Vitamin E,Salicylic Acid,Lactic Acid,Niacinamide,Niacinamide",0,1,1,1,0,1,1,1,15
+348,Mask 348,Mask,Brand C,52.03,3.2,"Centella Asiatica,Vitamin E,Ceramides",1,1,1,1,1,0,1,0,0
+349,Serum 349,Serum,Brand D,36.0,4.4,"Retinol,Titanium Dioxide,Glycerin,Niacinamide,Lactic Acid",0,0,0,1,1,0,0,0,0
+350,Moisturizer 350,Moisturizer,Brand D,34.92,4.5,"Hyaluronic Acid,Salicylic Acid,Glycolic Acid,Squalane",0,0,1,1,0,0,1,1,0
+351,Sunscreen 351,Sunscreen,Brand B,99.55,3.5,"Zinc Oxide,Lactic Acid,Vitamin E,Salicylic Acid,Lactic Acid",0,0,0,1,0,0,1,0,50
+352,Serum 352,Serum,Brand E,48.12,3.9,"Centella Asiatica,Lactic Acid,Lactic Acid,Salicylic Acid,Zinc Oxide,Vitamin C,Salicylic Acid",1,0,0,0,0,1,0,1,0
+353,Toner 353,Toner,Brand C,15.08,3.4,"Centella Asiatica,Lactic Acid,Lactic Acid",1,0,1,1,1,1,0,0,0
+354,Sunscreen 354,Sunscreen,Brand E,17.19,4.2,"Glycerin,Retinol,Vitamin C,Salicylic Acid,Niacinamide,Hyaluronic Acid",1,0,1,0,1,0,0,1,15
+355,Cleanser 355,Cleanser,Brand D,30.51,4.7,"Ceramides,Aloe Vera,Chamomile,Lactic Acid",0,0,0,0,0,1,1,0,0
+356,Serum 356,Serum,Brand C,115.65,3.9,"Ceramides,Vitamin E,Retinol,Chamomile,Aloe Vera",1,1,0,0,1,1,0,0,0
+357,Cleanser 357,Cleanser,Brand A,125.81,4.5,"Zinc Oxide,Vitamin C,Titanium Dioxide,Squalane,Retinol,Salicylic Acid",0,1,1,1,0,1,1,1,0
+358,Toner 358,Toner,Brand E,50.91,4.1,"Centella Asiatica,Zinc Oxide,Squalane,Vitamin E,Retinol,Salicylic Acid",0,1,0,1,0,0,1,1,0
+359,Mask 359,Mask,Brand B,131.21,4.0,"Vitamin C,Glycerin,Zinc Oxide,Titanium Dioxide,Hyaluronic Acid,Hyaluronic Acid",0,0,1,1,1,0,0,1,0
+360,Moisturizer 360,Moisturizer,Brand B,71.32,3.3,"Lactic Acid,Squalane,Retinol,Aloe Vera,Vitamin C",0,0,0,0,0,1,0,0,0
+361,Mask 361,Mask,Brand D,126.84,4.5,"Ceramides,Retinol,Squalane,Lactic Acid,Niacinamide,Hyaluronic Acid,Hyaluronic Acid",0,0,1,1,1,1,0,0,0
+362,Toner 362,Toner,Brand A,124.13,4.8,"Zinc Oxide,Chamomile,Zinc Oxide,Salicylic Acid,Centella Asiatica",0,0,0,1,0,1,1,0,0
+363,Moisturizer 363,Moisturizer,Brand A,107.9,3.3,"Titanium Dioxide,Retinol,Lactic Acid,Ceramides,Aloe Vera,Chamomile",0,1,0,0,1,1,1,1,0
+364,Mask 364,Mask,Brand C,101.16,4.5,"Niacinamide,Glycerin,Glycerin,Niacinamide,Vitamin C,Zinc Oxide",0,1,0,1,0,0,0,0,0
+365,Serum 365,Serum,Brand B,63.91,3.2,"Centella Asiatica,Squalane,Glycerin,Salicylic Acid,Lactic Acid,Zinc Oxide",1,0,0,1,1,1,1,0,0
+366,Mask 366,Mask,Brand E,26.01,4.2,"Glycolic Acid,Glycerin,Vitamin C",1,0,1,1,1,0,0,1,0
+367,Moisturizer 367,Moisturizer,Brand C,58.29,4.3,"Vitamin E,Vitamin E,Centella Asiatica,Centella Asiatica,Retinol",1,1,1,0,1,1,0,1,0
+368,Toner 368,Toner,Brand B,97.18,3.5,"Retinol,Squalane,Lactic Acid,Chamomile,Retinol,Retinol",1,0,1,0,0,0,0,0,0
+369,Serum 369,Serum,Brand D,117.68,4.0,"Titanium Dioxide,Retinol,Titanium Dioxide,Zinc Oxide,Retinol,Titanium Dioxide",0,1,1,0,0,1,1,1,0
+370,Mask 370,Mask,Brand A,111.3,4.2,"Vitamin C,Squalane,Glycolic Acid,Zinc Oxide",1,1,1,0,0,1,1,1,0
+371,Mask 371,Mask,Brand A,15.88,3.1,"Glycolic Acid,Titanium Dioxide,Retinol,Aloe Vera,Glycolic Acid,Squalane,Zinc Oxide",1,0,0,0,0,0,1,1,0
+372,Mask 372,Mask,Brand D,80.78,3.6,"Squalane,Titanium Dioxide,Salicylic Acid,Vitamin E,Lactic Acid",1,1,1,0,1,1,1,0,0
+373,Moisturizer 373,Moisturizer,Brand A,97.19,3.3,"Chamomile,Lactic Acid,Zinc Oxide,Glycerin,Titanium Dioxide,Lactic Acid",1,0,1,1,1,1,0,1,0
+374,Cleanser 374,Cleanser,Brand E,15.5,4.2,"Squalane,Squalane,Squalane,Ceramides",0,0,1,0,1,1,0,1,0
+375,Mask 375,Mask,Brand E,120.24,3.9,"Lactic Acid,Ceramides,Glycolic Acid,Ceramides,Vitamin E,Chamomile",0,1,1,1,1,1,1,1,0
+376,Sunscreen 376,Sunscreen,Brand C,119.66,3.3,"Glycolic Acid,Titanium Dioxide,Vitamin E,Ceramides,Titanium Dioxide,Vitamin C",1,0,0,0,1,1,1,1,0
+377,Sunscreen 377,Sunscreen,Brand B,100.39,3.4,"Vitamin C,Retinol,Chamomile",1,1,0,1,0,0,1,0,50
+378,Sunscreen 378,Sunscreen,Brand A,146.51,4.2,"Salicylic Acid,Vitamin E,Lactic Acid,Titanium Dioxide",1,0,1,0,0,0,0,0,15
+379,Serum 379,Serum,Brand C,91.48,3.8,"Vitamin E,Glycolic Acid,Vitamin C",1,1,1,0,1,0,0,0,0
+380,Sunscreen 380,Sunscreen,Brand A,13.17,4.2,"Retinol,Vitamin C,Ceramides,Centella Asiatica",1,1,0,0,0,1,0,0,50
+381,Mask 381,Mask,Brand E,44.43,3.4,"Retinol,Centella Asiatica,Glycolic Acid",1,1,0,1,1,0,0,1,0
+382,Cleanser 382,Cleanser,Brand D,88.62,3.1,"Vitamin C,Lactic Acid,Chamomile,Niacinamide,Vitamin C,Aloe Vera",0,1,0,1,0,0,0,0,0
+383,Moisturizer 383,Moisturizer,Brand A,41.32,3.9,"Retinol,Salicylic Acid,Glycolic Acid,Hyaluronic Acid,Aloe Vera,Vitamin E",1,0,1,0,0,0,0,0,0
+384,Toner 384,Toner,Brand B,121.89,3.9,"Aloe Vera,Chamomile,Glycolic Acid",0,0,0,0,0,1,1,1,0
+385,Mask 385,Mask,Brand C,37.4,3.3,"Glycerin,Hyaluronic Acid,Vitamin E",0,0,1,1,1,1,0,0,0
+386,Mask 386,Mask,Brand A,51.12,5.0,"Retinol,Salicylic Acid,Chamomile,Salicylic Acid",1,0,0,0,1,1,0,1,0
+387,Moisturizer 387,Moisturizer,Brand A,109.77,3.2,"Titanium Dioxide,Retinol,Lactic Acid,Ceramides,Ceramides,Squalane",0,0,0,0,1,0,0,0,0
+388,Sunscreen 388,Sunscreen,Brand A,68.15,4.5,"Hyaluronic Acid,Lactic Acid,Vitamin E,Ceramides,Vitamin C,Vitamin C",0,0,0,0,0,1,1,0,15
+389,Mask 389,Mask,Brand C,146.12,3.4,"Hyaluronic Acid,Glycerin,Vitamin C,Lactic Acid,Glycerin,Niacinamide,Salicylic Acid",1,1,1,1,0,0,1,0,0
+390,Moisturizer 390,Moisturizer,Brand C,100.56,3.3,"Retinol,Vitamin E,Squalane",0,0,1,1,0,1,0,0,0
+391,Serum 391,Serum,Brand D,86.12,3.5,"Squalane,Centella Asiatica,Vitamin C,Squalane",1,0,0,1,0,1,0,1,0
+392,Sunscreen 392,Sunscreen,Brand D,89.27,4.8,"Titanium Dioxide,Squalane,Zinc Oxide,Titanium Dioxide,Salicylic Acid,Vitamin E",0,0,0,1,0,0,0,1,0
+393,Mask 393,Mask,Brand E,143.48,3.6,"Hyaluronic Acid,Zinc Oxide,Centella Asiatica,Niacinamide,Niacinamide,Niacinamide,Glycolic Acid",1,0,0,0,0,0,1,1,0
+394,Mask 394,Mask,Brand C,34.77,4.5,"Vitamin E,Retinol,Centella Asiatica,Retinol,Centella Asiatica,Glycerin,Niacinamide",0,1,1,1,0,1,1,1,0
+395,Sunscreen 395,Sunscreen,Brand E,93.84,4.5,"Zinc Oxide,Glycerin,Centella Asiatica",0,0,0,1,0,0,0,1,0
+396,Cleanser 396,Cleanser,Brand A,136.93,3.4,"Hyaluronic Acid,Ceramides,Vitamin C",1,1,0,1,0,0,0,1,0
+397,Sunscreen 397,Sunscreen,Brand B,115.29,3.7,"Squalane,Glycolic Acid,Titanium Dioxide",1,0,1,0,0,1,0,1,15
+398,Serum 398,Serum,Brand E,92.21,3.6,"Vitamin C,Retinol,Salicylic Acid,Vitamin C,Titanium Dioxide,Lactic Acid,Zinc Oxide",1,0,0,1,1,1,0,0,0
+399,Toner 399,Toner,Brand C,110.93,4.6,"Glycerin,Aloe Vera,Niacinamide,Zinc Oxide,Chamomile,Salicylic Acid,Niacinamide",1,0,0,1,1,0,0,0,0
+400,Cleanser 400,Cleanser,Brand B,76.9,4.6,"Niacinamide,Salicylic Acid,Retinol,Squalane,Vitamin C",1,0,1,1,1,1,1,1,0
+401,Mask 401,Mask,Brand B,12.16,3.2,"Squalane,Titanium Dioxide,Salicylic Acid,Zinc Oxide",1,0,0,0,1,1,1,1,0
+402,Toner 402,Toner,Brand E,56.12,4.4,"Glycerin,Zinc Oxide,Chamomile,Zinc Oxide,Ceramides",1,0,1,0,0,1,1,0,0
+403,Cleanser 403,Cleanser,Brand E,141.67,4.6,"Titanium Dioxide,Centella Asiatica,Glycerin,Glycerin",0,1,1,1,0,1,0,1,0
+404,Moisturizer 404,Moisturizer,Brand A,139.94,3.7,"Aloe Vera,Chamomile,Squalane,Lactic Acid,Hyaluronic Acid,Retinol",1,1,1,1,1,0,1,1,0
+405,Sunscreen 405,Sunscreen,Brand D,93.42,3.0,"Ceramides,Niacinamide,Aloe Vera,Hyaluronic Acid,Chamomile,Glycolic Acid,Ceramides",0,0,1,1,0,0,1,0,50
+406,Sunscreen 406,Sunscreen,Brand A,133.5,3.1,"Vitamin E,Zinc Oxide,Glycolic Acid",0,1,0,1,0,0,1,1,50
+407,Mask 407,Mask,Brand E,86.88,4.9,"Titanium Dioxide,Chamomile,Glycerin,Glycerin,Lactic Acid,Niacinamide",0,0,0,1,0,1,0,1,0
+408,Mask 408,Mask,Brand C,109.36,5.0,"Lactic Acid,Retinol,Zinc Oxide",0,0,1,1,0,0,1,1,0
+409,Moisturizer 409,Moisturizer,Brand D,134.25,3.8,"Retinol,Centella Asiatica,Titanium Dioxide,Salicylic Acid,Squalane,Lactic Acid,Zinc Oxide",0,1,1,1,1,1,0,0,0
+410,Toner 410,Toner,Brand D,31.68,3.2,"Chamomile,Glycolic Acid,Squalane,Lactic Acid",0,1,0,0,0,0,0,1,0
+411,Serum 411,Serum,Brand A,123.91,3.1,"Salicylic Acid,Glycolic Acid,Salicylic Acid,Zinc Oxide",1,0,0,1,1,1,1,0,0
+412,Moisturizer 412,Moisturizer,Brand E,30.98,4.9,"Squalane,Ceramides,Retinol",0,0,1,1,1,1,1,0,0
+413,Mask 413,Mask,Brand D,111.25,4.1,"Niacinamide,Vitamin E,Chamomile,Glycerin,Centella Asiatica,Titanium Dioxide",1,0,0,0,0,0,0,1,0
+414,Moisturizer 414,Moisturizer,Brand B,43.46,4.2,"Glycerin,Glycolic Acid,Retinol",1,0,1,1,1,1,0,1,0
+415,Toner 415,Toner,Brand B,77.36,4.6,"Hyaluronic Acid,Zinc Oxide,Chamomile,Zinc Oxide",1,0,0,0,1,0,0,0,0
+416,Toner 416,Toner,Brand E,105.92,3.2,"Vitamin E,Chamomile,Salicylic Acid,Titanium Dioxide,Glycerin,Lactic Acid,Vitamin C",0,0,1,1,1,1,0,0,0
+417,Serum 417,Serum,Brand E,128.17,3.4,"Ceramides,Zinc Oxide,Hyaluronic Acid,Chamomile,Salicylic Acid,Ceramides",0,1,0,0,1,1,1,0,0
+418,Toner 418,Toner,Brand A,146.64,3.7,"Niacinamide,Vitamin E,Zinc Oxide",1,1,1,0,1,0,0,0,0
+419,Moisturizer 419,Moisturizer,Brand D,70.76,4.9,"Ceramides,Aloe Vera,Glycolic Acid,Vitamin C,Chamomile",0,0,1,1,0,1,0,0,0
+420,Sunscreen 420,Sunscreen,Brand E,28.6,3.5,"Retinol,Vitamin C,Hyaluronic Acid,Squalane,Lactic Acid,Vitamin C",1,0,1,1,1,1,1,0,50
+421,Moisturizer 421,Moisturizer,Brand C,20.15,5.0,"Hyaluronic Acid,Ceramides,Ceramides,Squalane,Salicylic Acid,Niacinamide,Glycolic Acid",0,1,1,0,0,0,0,1,0
+422,Cleanser 422,Cleanser,Brand B,106.15,3.1,"Lactic Acid,Titanium Dioxide,Aloe Vera,Aloe Vera,Squalane,Centella Asiatica,Chamomile",1,1,1,0,1,1,0,0,0
+423,Serum 423,Serum,Brand E,149.85,4.2,"Zinc Oxide,Glycerin,Vitamin C,Retinol,Chamomile,Glycerin",0,1,1,0,0,1,1,1,0
+424,Mask 424,Mask,Brand B,48.67,3.8,"Centella Asiatica,Lactic Acid,Chamomile",0,1,1,0,0,0,0,1,0
+425,Serum 425,Serum,Brand C,66.3,4.6,"Chamomile,Aloe Vera,Salicylic Acid",0,1,1,0,1,1,1,0,0
+426,Serum 426,Serum,Brand D,17.13,4.0,"Ceramides,Salicylic Acid,Salicylic Acid",0,0,0,0,1,0,1,0,0
+427,Sunscreen 427,Sunscreen,Brand A,149.56,3.1,"Centella Asiatica,Vitamin E,Chamomile",1,1,0,0,0,0,0,0,30
+428,Toner 428,Toner,Brand D,67.7,4.9,"Glycolic Acid,Salicylic Acid,Vitamin C,Retinol,Glycerin,Glycolic Acid,Salicylic Acid",1,1,1,1,1,0,1,1,0
+429,Sunscreen 429,Sunscreen,Brand B,137.03,4.3,"Zinc Oxide,Niacinamide,Lactic Acid",1,0,0,1,0,0,1,0,50
+430,Toner 430,Toner,Brand A,116.06,4.4,"Chamomile,Lactic Acid,Ceramides",0,0,1,0,0,0,1,0,0
+431,Cleanser 431,Cleanser,Brand E,123.39,4.2,"Hyaluronic Acid,Chamomile,Ceramides,Chamomile,Chamomile,Ceramides,Centella Asiatica",1,0,0,0,0,1,0,1,0
+432,Cleanser 432,Cleanser,Brand E,102.29,3.6,"Retinol,Vitamin C,Vitamin C,Hyaluronic Acid,Glycerin,Vitamin E",1,0,1,0,0,0,1,1,0
+433,Cleanser 433,Cleanser,Brand B,126.93,3.8,"Glycolic Acid,Vitamin E,Squalane,Aloe Vera",1,0,0,0,0,1,0,0,0
+434,Serum 434,Serum,Brand C,27.8,4.1,"Squalane,Vitamin E,Titanium Dioxide,Glycolic Acid",1,1,0,0,0,0,1,0,0
+435,Toner 435,Toner,Brand C,22.3,4.4,"Vitamin C,Glycolic Acid,Zinc Oxide,Hyaluronic Acid,Niacinamide,Lactic Acid",0,1,1,1,0,1,1,1,0
+436,Mask 436,Mask,Brand C,47.33,4.6,"Hyaluronic Acid,Hyaluronic Acid,Glycerin,Vitamin E,Glycerin",0,1,1,0,1,0,0,0,0
+437,Toner 437,Toner,Brand C,53.45,3.7,"Ceramides,Zinc Oxide,Vitamin C,Vitamin E",1,0,1,0,1,1,1,0,0
+438,Moisturizer 438,Moisturizer,Brand C,31.08,3.2,"Chamomile,Squalane,Salicylic Acid,Titanium Dioxide,Retinol",1,0,1,1,0,1,0,1,0
+439,Mask 439,Mask,Brand B,116.34,3.7,"Niacinamide,Retinol,Glycolic Acid,Chamomile",1,0,1,1,0,1,0,1,0
+440,Sunscreen 440,Sunscreen,Brand B,102.72,4.0,"Aloe Vera,Vitamin C,Niacinamide,Ceramides,Chamomile,Titanium Dioxide,Squalane",0,0,1,0,0,1,1,0,30
+441,Serum 441,Serum,Brand B,88.05,3.4,"Retinol,Centella Asiatica,Titanium Dioxide,Glycolic Acid,Zinc Oxide,Squalane,Squalane",1,1,0,0,0,1,1,0,0
+442,Toner 442,Toner,Brand D,57.19,4.1,"Salicylic Acid,Glycolic Acid,Centella Asiatica,Chamomile,Lactic Acid,Centella Asiatica,Vitamin E",1,1,0,1,1,0,0,0,0
+443,Serum 443,Serum,Brand D,131.72,3.2,"Niacinamide,Glycolic Acid,Hyaluronic Acid,Niacinamide,Lactic Acid,Chamomile",1,0,1,1,0,0,0,0,0
+444,Mask 444,Mask,Brand A,137.85,3.0,"Salicylic Acid,Centella Asiatica,Glycerin,Hyaluronic Acid,Salicylic Acid,Aloe Vera,Lactic Acid",1,0,0,1,0,1,0,1,0
+445,Toner 445,Toner,Brand C,144.51,4.8,"Hyaluronic Acid,Niacinamide,Vitamin C,Hyaluronic Acid",0,1,0,0,0,1,0,0,0
+446,Mask 446,Mask,Brand D,39.48,4.5,"Vitamin C,Salicylic Acid,Ceramides",0,0,0,1,0,0,0,0,0
+447,Cleanser 447,Cleanser,Brand D,133.21,4.0,"Hyaluronic Acid,Glycolic Acid,Vitamin C,Niacinamide",1,1,0,0,1,0,0,0,0
+448,Sunscreen 448,Sunscreen,Brand E,144.76,3.5,"Salicylic Acid,Vitamin E,Vitamin C,Salicylic Acid,Vitamin E,Niacinamide",1,0,1,0,1,0,1,0,15
+449,Serum 449,Serum,Brand C,102.76,4.5,"Salicylic Acid,Glycerin,Aloe Vera,Zinc Oxide,Vitamin C",0,0,0,0,1,1,0,0,0
+450,Toner 450,Toner,Brand B,58.24,4.5,"Zinc Oxide,Glycerin,Titanium Dioxide,Squalane",1,0,1,1,0,1,0,1,0
+451,Toner 451,Toner,Brand D,22.23,4.4,"Vitamin C,Retinol,Retinol,Salicylic Acid,Vitamin C",0,1,0,1,1,1,0,1,0
+452,Moisturizer 452,Moisturizer,Brand E,42.6,3.9,"Zinc Oxide,Lactic Acid,Vitamin E,Retinol,Glycolic Acid",0,1,1,0,0,0,0,0,0
+453,Toner 453,Toner,Brand E,18.32,4.7,"Ceramides,Squalane,Salicylic Acid,Glycolic Acid,Zinc Oxide,Lactic Acid,Glycerin",0,0,1,0,0,1,0,0,0
+454,Moisturizer 454,Moisturizer,Brand B,90.78,3.2,"Niacinamide,Titanium Dioxide,Vitamin C,Glycerin,Hyaluronic Acid",1,1,0,1,0,0,0,1,0
+455,Toner 455,Toner,Brand C,75.03,4.6,"Titanium Dioxide,Vitamin C,Salicylic Acid,Hyaluronic Acid,Centella Asiatica,Vitamin C",1,1,0,1,1,0,1,0,0
+456,Sunscreen 456,Sunscreen,Brand B,145.97,5.0,"Hyaluronic Acid,Aloe Vera,Vitamin C,Salicylic Acid,Titanium Dioxide,Retinol,Niacinamide",1,1,0,0,0,0,1,0,0
+457,Cleanser 457,Cleanser,Brand A,76.42,4.7,"Glycerin,Ceramides,Vitamin C,Titanium Dioxide,Zinc Oxide,Aloe Vera",0,1,0,1,1,1,0,0,0
+458,Serum 458,Serum,Brand B,129.3,3.9,"Titanium Dioxide,Niacinamide,Niacinamide,Squalane,Vitamin E,Vitamin C,Vitamin E",0,1,1,0,0,1,1,1,0
+459,Serum 459,Serum,Brand A,68.96,4.1,"Vitamin E,Squalane,Titanium Dioxide,Glycolic Acid,Lactic Acid,Squalane",0,1,0,0,1,0,0,1,0
+460,Sunscreen 460,Sunscreen,Brand E,131.8,3.0,"Retinol,Titanium Dioxide,Salicylic Acid,Lactic Acid",0,0,0,0,0,1,0,0,50
+461,Cleanser 461,Cleanser,Brand A,36.25,4.7,"Glycolic Acid,Centella Asiatica,Niacinamide,Titanium Dioxide,Chamomile,Hyaluronic Acid",0,0,0,1,1,1,1,1,0
+462,Serum 462,Serum,Brand B,138.23,3.3,"Salicylic Acid,Glycerin,Vitamin C,Aloe Vera,Glycolic Acid,Squalane,Vitamin E",1,0,0,1,0,1,0,0,0
+463,Mask 463,Mask,Brand B,54.79,4.6,"Squalane,Chamomile,Chamomile,Salicylic Acid,Retinol,Glycolic Acid",0,1,0,1,1,0,0,1,0
+464,Serum 464,Serum,Brand A,84.96,4.4,"Retinol,Squalane,Glycerin,Vitamin E",0,0,0,1,1,1,0,0,0
+465,Moisturizer 465,Moisturizer,Brand A,50.4,4.0,"Hyaluronic Acid,Squalane,Retinol,Vitamin E,Centella Asiatica,Titanium Dioxide",0,0,0,1,0,0,0,0,0
+466,Moisturizer 466,Moisturizer,Brand B,117.4,3.8,"Retinol,Titanium Dioxide,Vitamin C",1,0,1,0,1,1,1,0,0
+467,Serum 467,Serum,Brand D,75.17,4.7,"Squalane,Titanium Dioxide,Hyaluronic Acid,Titanium Dioxide",1,1,0,0,1,0,0,1,0
+468,Mask 468,Mask,Brand E,105.23,4.2,"Niacinamide,Vitamin C,Chamomile,Aloe Vera,Zinc Oxide,Squalane,Niacinamide",0,0,0,0,1,1,1,0,0
+469,Sunscreen 469,Sunscreen,Brand E,89.81,3.9,"Hyaluronic Acid,Aloe Vera,Titanium Dioxide,Squalane,Lactic Acid",1,0,1,1,1,0,0,1,15
+470,Toner 470,Toner,Brand C,51.19,4.0,"Vitamin E,Glycerin,Vitamin E",0,1,0,0,0,0,1,1,0
+471,Moisturizer 471,Moisturizer,Brand E,86.13,4.8,"Hyaluronic Acid,Salicylic Acid,Niacinamide",0,0,0,0,1,0,1,1,0
+472,Cleanser 472,Cleanser,Brand A,147.98,4.4,"Titanium Dioxide,Vitamin E,Chamomile",1,1,0,0,0,0,0,0,0
+473,Cleanser 473,Cleanser,Brand C,45.33,4.8,"Vitamin C,Glycerin,Retinol,Glycerin,Aloe Vera,Vitamin C",1,1,0,0,1,1,0,1,0
+474,Moisturizer 474,Moisturizer,Brand B,139.78,4.4,"Zinc Oxide,Aloe Vera,Retinol,Hyaluronic Acid,Vitamin E",0,0,0,0,0,0,1,1,0
+475,Cleanser 475,Cleanser,Brand D,10.81,4.6,"Vitamin C,Glycerin,Centella Asiatica",1,1,1,1,0,0,1,0,0
+476,Toner 476,Toner,Brand E,119.94,3.6,"Titanium Dioxide,Chamomile,Titanium Dioxide,Retinol,Glycolic Acid,Vitamin C",1,0,0,0,0,0,1,0,0
+477,Sunscreen 477,Sunscreen,Brand D,107.04,3.8,"Vitamin E,Ceramides,Glycolic Acid,Aloe Vera,Lactic Acid,Lactic Acid",1,0,0,1,1,0,0,1,50
+478,Mask 478,Mask,Brand E,14.09,4.2,"Aloe Vera,Titanium Dioxide,Glycerin,Hyaluronic Acid,Chamomile,Squalane,Vitamin E",1,1,0,1,1,1,0,0,0
+479,Sunscreen 479,Sunscreen,Brand A,139.71,4.0,"Retinol,Squalane,Glycerin,Centella Asiatica",1,1,1,0,1,1,0,0,50
+480,Serum 480,Serum,Brand C,21.4,4.4,"Titanium Dioxide,Hyaluronic Acid,Zinc Oxide,Salicylic Acid",0,1,0,0,1,0,1,0,0
+481,Sunscreen 481,Sunscreen,Brand E,35.27,4.9,"Titanium Dioxide,Niacinamide,Niacinamide,Ceramides,Zinc Oxide",1,1,0,0,0,1,1,0,0
+482,Toner 482,Toner,Brand D,40.16,4.7,"Zinc Oxide,Salicylic Acid,Vitamin C,Niacinamide",0,0,1,0,1,1,1,1,0
+483,Moisturizer 483,Moisturizer,Brand A,71.47,4.5,"Vitamin C,Ceramides,Hyaluronic Acid,Ceramides,Aloe Vera",0,0,1,0,0,1,1,0,0
+484,Toner 484,Toner,Brand A,39.87,3.3,"Zinc Oxide,Centella Asiatica,Centella Asiatica,Vitamin E,Ceramides,Ceramides,Aloe Vera",1,0,0,0,0,0,1,0,0
+485,Toner 485,Toner,Brand E,25.15,4.6,"Hyaluronic Acid,Centella Asiatica,Titanium Dioxide",1,0,0,1,0,1,1,0,0
+486,Sunscreen 486,Sunscreen,Brand C,95.36,4.8,"Retinol,Retinol,Vitamin C,Hyaluronic Acid",1,1,0,1,1,1,1,1,50
+487,Toner 487,Toner,Brand B,98.26,4.6,"Retinol,Retinol,Lactic Acid",0,1,1,1,1,0,0,1,0
+488,Moisturizer 488,Moisturizer,Brand B,99.93,4.8,"Centella Asiatica,Aloe Vera,Squalane",1,0,0,0,0,1,1,0,0
+489,Mask 489,Mask,Brand C,102.82,3.8,"Ceramides,Niacinamide,Hyaluronic Acid,Titanium Dioxide,Aloe Vera,Hyaluronic Acid",0,0,1,1,0,1,1,1,0
+490,Cleanser 490,Cleanser,Brand B,76.79,4.6,"Ceramides,Vitamin E,Aloe Vera,Salicylic Acid",1,0,0,1,0,0,1,1,0
+491,Sunscreen 491,Sunscreen,Brand B,78.94,4.0,"Chamomile,Titanium Dioxide,Aloe Vera,Niacinamide,Hyaluronic Acid,Centella Asiatica,Glycerin",1,0,0,0,0,1,1,0,30
+492,Serum 492,Serum,Brand D,17.74,4.2,"Niacinamide,Salicylic Acid,Vitamin C",0,0,0,0,1,0,1,1,0
+493,Toner 493,Toner,Brand C,109.98,3.9,"Glycerin,Vitamin C,Vitamin E",0,1,1,1,1,1,1,0,0
+494,Cleanser 494,Cleanser,Brand D,138.23,4.2,"Squalane,Salicylic Acid,Zinc Oxide",1,0,0,1,1,1,0,0,0
+495,Toner 495,Toner,Brand E,21.27,4.3,"Glycerin,Centella Asiatica,Aloe Vera,Vitamin C,Zinc Oxide,Ceramides",0,0,1,1,1,0,1,0,0
+496,Serum 496,Serum,Brand B,57.3,4.8,"Hyaluronic Acid,Vitamin E,Zinc Oxide,Aloe Vera",1,0,1,0,1,1,0,0,0
+497,Serum 497,Serum,Brand E,139.02,5.0,"Aloe Vera,Hyaluronic Acid,Glycerin",1,0,1,0,1,0,1,0,0
+498,Cleanser 498,Cleanser,Brand D,14.74,4.6,"Vitamin C,Glycerin,Chamomile",0,0,0,0,0,1,0,1,0
+499,Serum 499,Serum,Brand D,122.36,4.9,"Vitamin E,Titanium Dioxide,Hyaluronic Acid,Squalane,Squalane",1,1,0,1,1,1,1,0,0
+500,Mask 500,Mask,Brand E,13.36,4.1,"Glycolic Acid,Vitamin C,Salicylic Acid",0,1,0,1,0,1,0,1,0

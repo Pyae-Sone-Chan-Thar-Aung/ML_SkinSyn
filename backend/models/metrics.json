@@ -1,0 +1,68 @@
+{
+  "linear_regression": {
+    "algorithm": "Ridge Regression",
+    "cv_r2_mean": 0.1767229952238041,
+    "cv_r2_std": 0.03940125177224251,
+    "train_rmse": 2.726544072087332,
+    "test_rmse": 2.681030366945182,
+    "test_r2": 0.19175637670409162
+  },
+  "naive_bayes": {
+    "algorithm": "Naive Bayes",
+    "cv_acc_mean": 0.5866666666666667,
+    "cv_acc_std": 0.018661829730465585,
+    "train_acc": 0.5908333333333333,
+    "test_acc": 0.61
+  },
+  "knn": {
+    "algorithm": "KNN",
+    "train_acc": 0.8070833333333334,
+    "test_acc": 0.8033333333333333,
+    "best_params": {
+      "n_neighbors": 11,
+      "weights": "uniform"
+    }
+  },
+  "svm": {
+    "algorithm": "SVM",
+    "cv_acc_mean": 0.8612500000000001,
+    "cv_acc_std": 0.001020620726159654,
+    "train_acc": 0.86125,
+    "test_acc": 0.875,
+    "best_params": {
+      "C": 0.5,
+      "gamma": "scale"
+    }
+  },
+  "decision_tree": {
+    "algorithm": "RandomForest (Suitability)",
+    "cv_acc_mean": 0.7829166666666666,
+    "cv_acc_std": 0.007264831572567763,
+    "train_acc": 0.995,
+    "test_acc": 0.7683333333333333,
+    "best_params": {
+      "max_depth": 20,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 300
+    },
+    "feature_importance": {
+      "age": 0.2354999298863812,
+      "sensitivity_level": 0.21366690122809165,
+      "oil_production": 0.15292390231689945,
+      "hydration_level": 0.15798122128897263,
+      "suitable_for_oily": 0.04598016385882663,
+      "suitable_for_dry": 0.03901089893034996,
+      "suitable_for_sensitive": 0.037276819146394635,
+      "has_fragrance": 0.060007805349071325,
+      "has_alcohol": 0.05765235799501257
+    }
+  },
+  "ann": {
+    "algorithm": "ANN",
+    "train_mae": 1.1310268640518188,
+    "test_mae": 1.269406795501709,
+    "test_rmse": 1.546208016296654,
+    "epochs_trained": 32
+  }
+}
